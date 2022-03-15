@@ -1,20 +1,28 @@
 import CookieConsent from 'react-cookie-consent';
+import Hotbar from '../Components/Navigation/Hotbar';
 import Globalstyle from '../styles/Global.styles';
+import Typography from '../styles/Typography.styles';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Globalstyle />
+      <Typography />
       <Component {...pageProps} />
+      <Hotbar />
       <CookieConsent
         location="top"
         buttonText="Im cool with that"
-        cookieName="Alice and the Hair Cookie Consent"
-        style={{ background: '', boxShadow: '' }}
-        buttonStyle={{
-          background: '',
-          color: '',
+        cookieName="Alice and the Hair Cookie Consent v3"
+        style={{
+          background: 'var(--blue)',
+          boxShadow: 'var(--cream)',
           fontSize: '14px',
+        }}
+        buttonStyle={{
+          background: 'var(--peach)',
+          color: 'var(--navy)',
+          fontSize: '12px',
         }}
         expires={150}
       >
