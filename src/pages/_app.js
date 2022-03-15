@@ -1,12 +1,10 @@
 import CookieConsent from 'react-cookie-consent';
-import GlobalStyle from '../styles/GlobalStyles';
-import { MenuProvider } from '../Context/MenuContext';
-import Footer from '../Components/Footer/Footer';
+import Globalstyle from '../styles/Global.styles';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <MenuProvider>
-      <GlobalStyle />
+    <>
+      <Globalstyle />
       <Component {...pageProps} />
       <CookieConsent
         location="top"
@@ -23,7 +21,7 @@ function MyApp({ Component, pageProps }) {
         By using this website you agree to the use of cookies to enhance the
         user experience.
       </CookieConsent>
-    </MenuProvider>
+    </>
   );
 }
 
