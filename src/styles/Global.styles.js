@@ -71,6 +71,10 @@ const Globalstyle = createGlobalStyle`
     border: 2px solid white;
     border-radius : 0px;
   }
+  .booking-page {
+    height: calc(100% - 70px);
+    width: 100%;
+  }
 `;
 
 export default Globalstyle;
