@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const HotbarStyles = styled.div`
   position: absolute;
+  z-index: 1000;
   bottom: 0px;
   left: 0px;
   width: 100%;

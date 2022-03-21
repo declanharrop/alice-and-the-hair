@@ -15,9 +15,10 @@ function MyApp({ Component, pageProps }) {
         buttonText="Im cool with that"
         cookieName="Alice and the Hair Cookie Consent v3"
         style={{
-          background: 'var(--blue)',
+          background: 'var(--navyf)',
           boxShadow: 'var(--cream)',
           fontSize: '14px',
+          fontWeight: '500',
         }}
         buttonStyle={{
           background: 'var(--peach)',

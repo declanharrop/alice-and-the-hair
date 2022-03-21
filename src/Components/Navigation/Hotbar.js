@@ -2,7 +2,7 @@ import Link from 'next/link';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import LocalOfferRoundedIcon from '@mui/icons-material/LocalOfferRounded';
 import GroupsRoundedIcon from '@mui/icons-material/GroupsRounded';
-import CallRoundedIcon from '@mui/icons-material/CallRounded';
+import CalendarMonthRoundedIcon from '@mui/icons-material/CalendarMonthRounded';
 import HelpRoundedIcon from '@mui/icons-material/HelpRounded';
 import { useRouter } from 'next/router';
 import HotbarStyles from './Hotbar.styles';
@@ -79,17 +79,19 @@ export default function Hotbar() {
             </Link>
           </li>
           <li>
-            <Link href="/contact">
+            <Link href="/book">
               <button
                 type="button"
-                title="contact"
+                title="book"
                 className={
-                  router.pathname === '/contact'
+                  router.pathname === '/book'
                     ? 'hotbar-button-active'
                     : 'hotbar-button'
                 }
               >
-                <CallRoundedIcon sx={{ fontSize: 32, color: 'var(--peach)' }} />
+                <CalendarMonthRoundedIcon
+                  sx={{ fontSize: 32, color: 'var(--peach)' }}
+                />
               </button>
             </Link>
           </li>

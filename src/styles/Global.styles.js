@@ -23,6 +23,7 @@ const Globalstyle = createGlobalStyle`
   }
   html {
     box-sizing: border-box;
+    font-size: 10px;
   }
   *,
   *:before,
@@ -48,15 +49,12 @@ const Globalstyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
   button {
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Raleway', --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     transition: ease-in-out 0.3s;
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.5rem;
     text-transform: uppercase;
-    padding: 2px 18px;
-    color: white;
-    border-radius: 20px;
     cursor: pointer;
     &:hover {
       background: white;
@@ -64,6 +62,14 @@ const Globalstyle = createGlobalStyle`
   }
   a {
     text-decoration: none;
+  }
+  .universal-button {
+    margin: 30px 20px;
+    padding: 16px 26px;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius : 0px;
   }
 `;
 

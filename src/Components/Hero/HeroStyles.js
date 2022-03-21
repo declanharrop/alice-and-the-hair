@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeroVideoStyles = styled.div`
   position: absolute;
-  height: 75vh;
+  min-height: 100%;
   width: 100%;
   .overlay {
     height: 100%;
@@ -33,11 +33,11 @@ export const HeroVideoStyles = styled.div`
     overflow: hidden;
     z-index: -10;
     top: 0;
-    height: 75vh;
+    height: 100%;
     width: 100%;
     video {
       position: absolute;
-      height: 75vh;
+      height: 100%;
       width: 100%;
       object-fit: cover;
     }
