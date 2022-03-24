@@ -5,6 +5,7 @@ const CardSectionStyles = styled.div`
   margin: 20px auto;
   padding: 20px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   .card-section-container {
     display: grid;
     grid-gap: 40px;
