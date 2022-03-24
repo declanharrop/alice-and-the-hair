@@ -44,4 +44,28 @@ export const HeroVideoStyles = styled.div`
   }
 `;
 
-export const HeroImageStyles = styled.div``;
+export const HeroImageStyles = styled.div`
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 100px;
+  .overlay {
+    background: var(--navyxf);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h1 {
+      font-size: 8rem;
+    }
+  }
+  @media screen and (max-width: 560px) {
+    .overlay {
+      h1 {
+        font-size: 6rem;
+      }
+    }
+  }
+`;
