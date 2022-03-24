@@ -30,7 +30,7 @@ const Typography = createGlobalStyle`
   }
   h5 {
     letter-spacing: 0.5rem;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     line-height: 1.4;
     font-weight: 400;
     text-transform: uppercase;

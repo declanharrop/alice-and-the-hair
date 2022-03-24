@@ -1,11 +1,12 @@
 import CookieConsent from 'react-cookie-consent';
 import Hotbar from '../Components/Navigation/Hotbar';
+import { SiteProvider } from '../Context/SiteContext';
 import Globalstyle from '../styles/Global.styles';
 import Typography from '../styles/Typography.styles';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <SiteProvider>
       <Globalstyle />
       <Typography />
       <Component {...pageProps} />
@@ -30,7 +31,7 @@ function MyApp({ Component, pageProps }) {
         By using this website you agree to the use of cookies to enhance the
         user experience.
       </CookieConsent>
-    </>
+    </SiteProvider>
   );
 }
 

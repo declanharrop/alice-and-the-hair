@@ -18,6 +18,7 @@ const Globalstyle = createGlobalStyle`
     --navy: #405475;
     --navyf: rgba(64, 84, 117, 0.7);
     --navyxf: rgba(64, 84, 117, 0.5);
+    --navyxxf: rgba(64, 84, 117, 0.2);
     --cream: #EAE0D0;
     --green: #5F7C5E;
   }

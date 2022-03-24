@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Alice",
+    "id": 1,
+    "title": "Chief Hare",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Beth",
+    "id": 2,
+    "title": "Master Stylist",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Leah",
+    "id": 3,
+    "title": "Manager",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Lydia",
+    "id": 4,
+    "title": "Master Stylist",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Arif",
+    "id": 5,
+    "title": "Master Stylist",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Louise",
+    "id": 6,
+    "title": "Senior Stylist",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Megan",
+    "id": 7,
+    "title": "Stylist",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Chyna",
+    "id": 8,
+    "title": "Stylist",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Sam",
+    "id": 9,
+    "title": "Graduate Stylist",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Cory",
+    "id": 10,
+    "title": "Graduate Stylist",
+    "prices": ""
+  },
+  {
+    "name": "Mia",
+    "id": 11,
+    "title": "Graduate Stylist",
+    "img": "",
+    "prices": ""
+  },
+  {
+    "name": "Amelia",
+    "id": 12,
+    "title": "",
+    "img": "",
+    "prices": ""
+  }
+]
