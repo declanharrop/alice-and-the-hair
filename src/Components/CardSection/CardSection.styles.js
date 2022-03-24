@@ -63,6 +63,21 @@ const CardSectionStyles = styled.div`
     .card-back {
       height: 440px;
       background: var(--navyf);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h4 {
+        font-size: 3rem;
+      }
+      h5 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1.6rem;
+        line-height: 1.4;
+        padding: 10px;
+      }
     }
   }
   @media screen and (max-width: 560px) {

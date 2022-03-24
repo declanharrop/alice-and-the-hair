@@ -29,7 +29,11 @@ export default function RotatingCard({ data }) {
           </div>
         </div>
         <div className="card-back" onClick={() => setFlipped(!isFlipped)}>
-          <p>back</p>
+          <div>
+            <h4>{data.name}</h4>
+            <h5>{data.title}</h5>
+            <p>{data.titleDetails}</p>
+          </div>
         </div>
       </ReactCardFlip>
     </div>

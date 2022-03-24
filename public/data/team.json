@@ -10,6 +10,7 @@
     "name": "Beth",
     "id": 2,
     "title": "Master Stylist",
+    "titleDetails": "This level has achieved mastery status, is more than confident in every aspect ofhairdressing and often will have a very high level of knowledge in a specific area. Ourmaster stylists are also part of our education team so pass on their knowledge to thelesser qualified members of the team. Our master stylists also continue to grow theirknowledge through external education to stay ahead of the trends and new techniques.",
     "img": "",
     "prices": ""
   },
@@ -17,6 +18,7 @@
     "name": "Leah",
     "id": 3,
     "title": "Manager",
+    "titleDetails": "",
     "img": "",
     "prices": ""
   },
@@ -24,6 +26,7 @@
     "name": "Lydia",
     "id": 4,
     "title": "Master Stylist",
+    "titleDetails": "This level has achieved mastery status, is more than confident in every aspect ofhairdressing and often will have a very high level of knowledge in a specific area. Ourmaster stylists are also part of our education team so pass on their knowledge to thelesser qualified members of the team. Our master stylists also continue to grow theirknowledge through external education to stay ahead of the trends and new techniques.",
     "img": "",
     "prices": ""
   },
@@ -31,6 +34,7 @@
     "name": "Arif",
     "id": 5,
     "title": "Master Stylist",
+    "titleDetails": "This level has achieved mastery status, is more than confident in every aspect ofhairdressing and often will have a very high level of knowledge in a specific area. Ourmaster stylists are also part of our education team so pass on their knowledge to thelesser qualified members of the team. Our master stylists also continue to grow theirknowledge through external education to stay ahead of the trends and new techniques.",
     "img": "",
     "prices": ""
   },
@@ -38,6 +42,7 @@
     "name": "Louise",
     "id": 6,
     "title": "Senior Stylist",
+    "titleDetails": "Fully qualified and confident in most if not all areas, this  level of stylist  has travelledthrough our training and development programme and is a much more informedhairdresser, this level will also undergo external education to reach mastery in specificareas.",
     "img": "",
     "prices": ""
   },
@@ -45,6 +50,7 @@
     "name": "Megan",
     "id": 7,
     "title": "Stylist",
+    "titleDetails": "Fully qualified in all aspects and is fully competent in every area, including complexcolour services, this level will undergo training in weaker areas to obtain a more solidunderstanding of all hair colouring and cutting techniques to become a fully rounded hairstylist and colourist.",
     "img": "",
     "prices": ""
   },
@@ -52,6 +58,7 @@
     "name": "Chyna",
     "id": 8,
     "title": "Stylist",
+    "titleDetails": "Fully qualified in all aspects and is fully competent in every area, including complexcolour services, this level will undergo training in weaker areas to obtain a more solidunderstanding of all hair colouring and cutting techniques to become a fully rounded hairstylist and colourist.",
     "img": "",
     "prices": ""
   },
@@ -59,6 +66,7 @@
     "name": "Sam",
     "id": 9,
     "title": "Graduate Stylist",
+    "titleDetails": "Qualified to NVQ level 2, this level has gained the relevant qualifications and skills tooffer basic hairdressing skills and is still on a training plan with our education team todevelop a much higher understanding of the craft- prices are reduced to reflect this.Appointments may take longer and large colour corrections are usually not suitable forthis level of stylist. It is important to understand that  this level of stylist is still improvingon their skills, things may not always go to plan and this will be dealt with case by case.",
     "img": "",
     "prices": ""
   },
@@ -66,12 +74,14 @@
     "name": "Cory",
     "id": 10,
     "title": "Graduate Stylist",
+    "titleDetails": "Qualified to NVQ level 2, this level has gained the relevant qualifications and skills tooffer basic hairdressing skills and is still on a training plan with our education team todevelop a much higher understanding of the craft- prices are reduced to reflect this.Appointments may take longer and large colour corrections are usually not suitable forthis level of stylist. It is important to understand that  this level of stylist is still improvingon their skills, things may not always go to plan and this will be dealt with case by case.",
     "prices": ""
   },
   {
     "name": "Mia",
     "id": 11,
     "title": "Graduate Stylist",
+    "titleDetails": "Qualified to NVQ level 2, this level has gained the relevant qualifications and skills tooffer basic hairdressing skills and is still on a training plan with our education team todevelop a much higher understanding of the craft- prices are reduced to reflect this.Appointments may take longer and large colour corrections are usually not suitable forthis level of stylist. It is important to understand that  this level of stylist is still improvingon their skills, things may not always go to plan and this will be dealt with case by case.",
     "img": "",
     "prices": ""
   },
@@ -79,6 +89,7 @@
     "name": "Amelia",
     "id": 12,
     "title": "",
+    "titleDetails": "",
     "img": "",
     "prices": ""
   }
