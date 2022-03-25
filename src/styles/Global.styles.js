@@ -75,7 +75,7 @@ const Globalstyle = createGlobalStyle`
     border-radius : 0px;
   }
   .booking {
-    height: calc(100vh - 70px);
+    height: 100vh;
   }
   .booking-page {
     height: 100%;

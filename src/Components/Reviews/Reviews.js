@@ -48,7 +48,7 @@ const SlideshowStyles = styled.div`
 
 export default function Reviews() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 900,
     autoplay: true,
