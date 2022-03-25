@@ -33,6 +33,7 @@ export default function RotatingCard({ data }) {
             <h4>{data.name}</h4>
             <h5>{data.title}</h5>
             <p>{data.titleDetails}</p>
+            {data.prices && <p>{data.prices}</p>}
           </div>
         </div>
       </ReactCardFlip>

@@ -49,8 +49,23 @@ export const HeroImageStyles = styled.div`
   background-size: cover;
   background-position: center center;
   margin-bottom: 100px;
+  margin-top: -6vh;
+  transform: skewY(-3deg);
+  position: relative;
+  overflow: hidden;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewY(3deg);
+    object-fit: cover;
+    height: 110%;
+    width: 100%;
+  }
   .overlay {
+    position: relative;
     background: var(--navyxf);
+    padding-top: 3vh;
     height: 100%;
     width: 100%;
     display: flex;
@@ -58,6 +73,7 @@ export const HeroImageStyles = styled.div`
     align-items: center;
     color: white;
     h1 {
+      transform: skewY(3deg);
       font-size: 8rem;
     }
   }

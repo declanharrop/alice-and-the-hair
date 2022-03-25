@@ -4,6 +4,7 @@ export default function HeroImage({
   height = '40vh',
   children,
   background = 'Team',
+  overlay,
 }) {
   return (
     <HeroImageStyles
@@ -12,7 +13,11 @@ export default function HeroImage({
         backgroundImage: `url(/img/hero/${background}.jpg)`,
       }}
     >
-      <div className="overlay">{children}</div>
+      <img
+        src={`/img/hero/${background}.jpg`}
+        alt={`Alice and the hair ${background} page header`}
+      />
+      {overlay && <div className="overlay">{children}</div>}
     </HeroImageStyles>
   );
 }
