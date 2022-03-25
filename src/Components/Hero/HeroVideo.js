@@ -10,8 +10,14 @@ export default function HeroVideo() {
         <div className="overlay">
           <div className="overlay-content">
             <h1 style={{ marginBottom: '40px' }}>Alice and the Hair</h1>
-            <Button exLink="/" title="Colour Consultaion" />
-            <Button exLink="/" title="Tell us how ya Feel" />
+            <Button
+              exLink="https://go.aliceandthehair.co.uk/ColourConsultation"
+              title="Colour Consultation"
+            />
+            <Button
+              exLink="https://go.aliceandthehair.co.uk/ClientFeedbackForm"
+              title="Tell us how ya Feel"
+            />
           </div>
         </div>
         <div

@@ -8,6 +8,7 @@ const Typography = createGlobalStyle`
     line-height: 1.6;
   }
   h2 {
+    font-family: 'LemonMilk', 'Raleway', sans-serif;
     letter-spacing: 0.5rem;
     font-size: 5rem;
     line-height: 1.2;
@@ -15,6 +16,7 @@ const Typography = createGlobalStyle`
     text-transform: uppercase;
   }
   h3 {
+    font-family: 'LemonMilk', 'Raleway', sans-serif;
     letter-spacing: 1rem;
     font-size: 4rem;
     line-height: 1.2;

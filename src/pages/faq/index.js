@@ -1,7 +1,9 @@
+import HeroImage from '../../Components/Hero/HeroImage';
+
 export default function FAQ() {
   return (
     <div>
-      <h1>FAQ's</h1>
+      <HeroImage />
     </div>
   );
 }
