@@ -1,3 +1,4 @@
+import Accordian from '../Components/Accordian/Accordian';
 import HeroImage from '../Components/Hero/HeroImage';
 
 export default function Prices() {
@@ -6,6 +7,7 @@ export default function Prices() {
       <HeroImage background="prices" overlay height="70vh">
         <h1>Prices</h1>
       </HeroImage>
+      <Accordian />
     </div>
   );
 }
