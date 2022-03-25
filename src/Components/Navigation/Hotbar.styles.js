@@ -8,7 +8,7 @@ const HotbarStyles = styled.div`
     left: 0px;
     width: 100%;
     background: var(--navy);
-    box-shadow: 0px 0px 32px var(--peachf);
+    box-shadow: 0px 0px 32px var(--navyf);
     height: 70px;
     nav {
       width: 100%;
@@ -52,7 +52,7 @@ const HotbarStyles = styled.div`
     width: 70px;
     height: 100%;
     background: var(--navy);
-    box-shadow: 0px 0px 32px var(--peachf);
+    box-shadow: 0px 0px 32px var(--navyf);
     nav {
       width: 100%;
       height: 100%;
