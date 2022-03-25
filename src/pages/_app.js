@@ -1,4 +1,5 @@
 import CookieConsent from 'react-cookie-consent';
+import Footer from '../Components/Footer/Footer';
 import Hotbar from '../Components/Navigation/Hotbar';
 import { SiteProvider } from '../Context/SiteContext';
 import Globalstyle from '../styles/Global.styles';
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }) {
       <Typography />
       <Component {...pageProps} />
       <Hotbar />
+      <Footer />
       <CookieConsent
         location="top"
         buttonText="Im cool with that"

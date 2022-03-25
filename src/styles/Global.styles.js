@@ -48,6 +48,8 @@ const Globalstyle = createGlobalStyle`
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: calc(100% - 70px);
+    margin-left: 70px;
   }
   button {
     font-weight: 500;
@@ -80,10 +82,15 @@ const Globalstyle = createGlobalStyle`
     width: 100%;
   }
   @media screen and (max-width: 560px) {
+    body {
+      margin: 0;
+      width: 100%;
+    }
     .booking {
       height: calc(100vh - 130px);
     }
   }
-`;
+  
+  `;
 
 export default Globalstyle;
