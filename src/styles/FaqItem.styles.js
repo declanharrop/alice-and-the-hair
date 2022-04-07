@@ -7,13 +7,25 @@ const FaqItemStyles = styled.div`
   .uppersection {
     margin: 20px;
     height: 40vh;
+    border-radius: 4px;
+    box-shadow: 0 0 14px 2px var(--navyxxf);
+    img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+    }
     .overlay {
+      border-radius: 4px;
+      position: absolute;
+      top: 0;
       height: 100%;
       width: 100%;
       padding: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
+      color: white;
       background: var(--navyxf);
     }
   }

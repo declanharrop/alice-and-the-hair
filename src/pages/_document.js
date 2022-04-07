@@ -1,5 +1,6 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import { motion } from 'framer-motion';
 
 export default class MyDocument extends Document {
   render() {
@@ -13,7 +14,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           <Main />
           <NextScript />
         </body>

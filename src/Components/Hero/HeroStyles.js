@@ -76,11 +76,17 @@ export const HeroImageStyles = styled.div`
       transform: skewY(3deg);
       font-size: 8rem;
     }
+    .smaller-title {
+      font-size: 5rem;
+    }
   }
   @media screen and (max-width: 560px) {
     .overlay {
       h1 {
         font-size: 6rem;
+      }
+      .smaller-title {
+        font-size: 3rem;
       }
     }
   }

@@ -81,6 +81,11 @@ const Globalstyle = createGlobalStyle`
     height: 100%;
     width: 100%;
   }
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px; 
+  }
   @media screen and (max-width: 560px) {
     body {
       margin: 0;

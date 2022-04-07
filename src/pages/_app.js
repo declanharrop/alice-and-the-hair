@@ -1,4 +1,5 @@
 import CookieConsent from 'react-cookie-consent';
+import { AnimateSharedLayout, motion } from 'framer-motion';
 import Footer from '../Components/Footer/Footer';
 import Hotbar from '../Components/Navigation/Hotbar';
 import { SiteProvider } from '../Context/SiteContext';
@@ -10,7 +11,15 @@ function MyApp({ Component, pageProps }) {
     <SiteProvider>
       <Globalstyle />
       <Typography />
-      <Component {...pageProps} />
+      <AnimateSharedLayout>
+        <motion.main
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+        >
+          <Component {...pageProps} />
+        </motion.main>
+      </AnimateSharedLayout>
       <Hotbar />
       <Footer />
       <CookieConsent
