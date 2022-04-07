@@ -38,7 +38,11 @@ export default function FaqItem() {
             <div className="pageWrapper slide-in-bottom">
               {data.content.map((item, i) => (
                 <div className="accordian" key={i}>
-                  <div className="q" onClick={() => toggleQuestion(item.q)}>
+                  <div
+                    className="q"
+                    onClick={() => toggleQuestion(item.q)}
+                    role="button"
+                  >
                     <h4>{item.q}</h4>
                   </div>
                   <AnimatePresence>
