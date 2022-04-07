@@ -1,6 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import { motion } from 'framer-motion';
 
 export default class MyDocument extends Document {
   render() {
