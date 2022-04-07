@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "section": "Being a training day hair model at Alice and the Hair",
+    "slug": "hair-model",
+    "image": "",
+    "video": "",
+    "content": [
+      {
+        "q": "How do I enquire?",
+        "a": [
+          "Check us out on instagram! You can message the salon or our apprentices from there. You can also give the salon a call and we will put you in the right direction."
+        ]
+      },
+      {
+        "q": "Who's Providing the service?",
+        "a": [
+          "Your service is being provided by a trainee and will be overseen by one of our senioreducators."
+        ]
+      },
+      {
+        "q": "How much will it cost?",
+        "a": [
+          "There is a charge for colour services. This charge is purely to cover the cost of product usage and is heavily discounted from our usual prices.",
+          "There is a £20 per hour charge for lightening and creative colours however this will never exceed £100 unless you choose to add on additional treatments such as Olaplex."
+        ]
+      },
+      {
+        "q": "How long will it take?",
+        "a": [
+          "If you are modelling for a colour service you should expect to be with us for the full day (usually 9am til 5pm) and you should make provisions for this (eg bring lunch, arrange child care ect)."
+        ]
+      },
+      {
+        "q": "Can I bring a friend?",
+        "a": [
+          "You should attend these sessions alone when possible (if you need to be accompanied for support please let us know beforehand so we can ensure we can accommodate)."
+        ]
+      },
+      {
+        "q": "Can I ask for whatever I want?",
+        "a": [
+          "You will be in a training environment, this means that the trainee will usually have strict objectives on what they need to achieve in this session (there is little room for personalisation) these objectives will be clearly set out before you agree to be a model for any session."
+        ]
+      },
+      {
+        "q": "Do I need to have my photo taken",
+        "a": [
+          "There is an expectation on our trainees that they take videos/photos throughout their training sessions, by agreeing to model for any training session you will need to be comfortable with this."
+        ]
+      },
+      {
+        "q": "What if I don't like my hair or something goes wrong?",
+        "a": [
+          "Although overseen by a senior educator, things can go wrong, this is all part of the learning process. During the session we will try our best to provide you with the best service possible however, when enquiring to be a model you should be understanding of the fact that the",
+          "Any ‘recolours’ are under discretion with our management team however in most cases you should expect to be recommended to book a paid appointment with one of our qualified stylists."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "",
+    "video": "",
+    "content": [
+      {
+        "q": "",
+        "a": [
+          "",
+          ""
+        ]
+      },
+      {
+        "q": "",
+        "a": [
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "",
+    "video": "",
+    "content": [
+      {
+        "q": "",
+        "a": [
+          "",
+          ""
+        ]
+      },
+      {
+        "q": "",
+        "a": [
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "",
+    "video": "",
+    "content": [
+      {
+        "q": "",
+        "a": [
+          "",
+          ""
+        ]
+      },
+      {
+        "q": "",
+        "a": [
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "",
+    "video": "",
+    "content": [
+      {
+        "q": "",
+        "a": [
+          "",
+          ""
+        ]
+      },
+      {
+        "q": "",
+        "a": [
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+]

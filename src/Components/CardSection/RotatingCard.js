@@ -19,9 +19,7 @@ export default function RotatingCard({ data }) {
           onMouseEnter={() => setFormat('jpg')}
           onMouseLeave={() => setFormat('gif')}
         >
-          <div className="clickme">
-            <p>More Info</p>
-          </div>
+          {data.clicker && <div className="ping" />}
           <img src={`/img/team/${data.name}.${format}`} alt="" />
           <div className="overlay">
             <h5>{data.name}</h5>

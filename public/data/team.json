@@ -4,7 +4,8 @@
     "id": 1,
     "title": "Chief Hare",
     "img": "",
-    "prices": "£75 per hour"
+    "prices": "£75 per hour",
+    "clicker": true
   },
   {
     "name": "Beth",
