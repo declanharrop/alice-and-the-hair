@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import HotbarStyles from './Hotbar.styles';
 
 export default function Hotbar() {
-  const [width, setWidth] = useState(undefined);
+  const [width, setWidth] = useState(false);
   const router = useRouter();
 
   function handleResize() {
@@ -24,98 +24,102 @@ export default function Hotbar() {
     }
   }, []);
   return (
-    <HotbarStyles>
-      <div className={width < 560 ? 'hotbar-mobile' : 'hotbar-desktop'}>
-        <nav>
-          <ul>
-            <li>
-              <Link href="/">
-                <button
-                  type="button"
-                  title="home"
-                  className={
-                    router.pathname === '/'
-                      ? 'hotbar-button-active'
-                      : 'hotbar-button'
-                  }
-                >
-                  <HomeRoundedIcon
-                    sx={{ fontSize: 32, color: 'var(--peach)' }}
-                  />
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link href="/prices">
-                <button
-                  type="button"
-                  title="prices"
-                  className={
-                    router.pathname === '/prices'
-                      ? 'hotbar-button-active'
-                      : 'hotbar-button'
-                  }
-                >
-                  <LocalOfferRoundedIcon
-                    sx={{ fontSize: 32, color: 'var(--peach)' }}
-                  />
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link href="/team">
-                <button
-                  type="button"
-                  title="team"
-                  className={
-                    router.pathname === '/team'
-                      ? 'hotbar-button-active'
-                      : 'hotbar-button'
-                  }
-                >
-                  <GroupsRoundedIcon
-                    sx={{ fontSize: 32, color: 'var(--peach)' }}
-                  />
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link href="/faq">
-                <button
-                  type="button"
-                  title="FAQ's"
-                  className={
-                    router.pathname === '/faq'
-                      ? 'hotbar-button-active'
-                      : 'hotbar-button'
-                  }
-                >
-                  <HelpRoundedIcon
-                    sx={{ fontSize: 32, color: 'var(--peach)' }}
-                  />
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link href="/book">
-                <button
-                  type="button"
-                  title="book"
-                  className={
-                    router.pathname === '/book'
-                      ? 'hotbar-button-active'
-                      : 'hotbar-button'
-                  }
-                >
-                  <CalendarMonthRoundedIcon
-                    sx={{ fontSize: 32, color: 'var(--peach)' }}
-                  />
-                </button>
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </HotbarStyles>
+    <div>
+      {width && (
+        <HotbarStyles>
+          <div className={width < 560 ? 'hotbar-mobile' : 'hotbar-desktop'}>
+            <nav>
+              <ul>
+                <li>
+                  <Link href="/">
+                    <button
+                      type="button"
+                      title="home"
+                      className={
+                        router.pathname === '/'
+                          ? 'hotbar-button-active'
+                          : 'hotbar-button'
+                      }
+                    >
+                      <HomeRoundedIcon
+                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                      />
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/prices">
+                    <button
+                      type="button"
+                      title="prices"
+                      className={
+                        router.pathname === '/prices'
+                          ? 'hotbar-button-active'
+                          : 'hotbar-button'
+                      }
+                    >
+                      <LocalOfferRoundedIcon
+                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                      />
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/team">
+                    <button
+                      type="button"
+                      title="team"
+                      className={
+                        router.pathname === '/team'
+                          ? 'hotbar-button-active'
+                          : 'hotbar-button'
+                      }
+                    >
+                      <GroupsRoundedIcon
+                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                      />
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/faq">
+                    <button
+                      type="button"
+                      title="FAQ's"
+                      className={
+                        router.pathname === '/faq'
+                          ? 'hotbar-button-active'
+                          : 'hotbar-button'
+                      }
+                    >
+                      <HelpRoundedIcon
+                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                      />
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/book">
+                    <button
+                      type="button"
+                      title="book"
+                      className={
+                        router.pathname === '/book'
+                          ? 'hotbar-button-active'
+                          : 'hotbar-button'
+                      }
+                    >
+                      <CalendarMonthRoundedIcon
+                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                      />
+                    </button>
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </HotbarStyles>
+      )}
+    </div>
   );
 }
