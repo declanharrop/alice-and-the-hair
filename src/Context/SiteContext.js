@@ -1,23 +1,26 @@
 import { useState, createContext } from 'react';
 
 const defaultValues = {
-  isFlipped: false,
-  toggleFlip: () => {},
+  isActive: false,
+  toggleQuestion: () => {},
 };
 
 export const SiteContext = createContext(defaultValues);
 
 export const SiteProvider = ({ children }) => {
-  const [isCard, setCard] = useState(0);
+  const [isActive, setActive] = useState(0);
 
-  const toggleCard = (id) => {
-    setCard(id);
+  const toggleQuestion = (q) => {
+    if (q === isActive) {
+      return setActive(false);
+    }
+    setActive(q);
   };
   return (
     <SiteContext.Provider
       value={{
-        isCard,
-        toggleCard,
+        isActive,
+        toggleQuestion,
       }}
     >
       {children}

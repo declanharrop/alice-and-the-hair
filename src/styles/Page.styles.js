@@ -1,6 +1,16 @@
 import styled from 'styled-components';
 
 export const FaqPageStyles = styled.div`
+  input {
+    margin: 0px auto 60px;
+    color: var(--navy);
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 4px var(--navyxf);
+    min-width: 300px;
+    font-size: 1.6rem;
+  }
   .flex {
     display: flex;
     justify-content: center;

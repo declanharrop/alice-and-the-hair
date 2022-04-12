@@ -6,18 +6,21 @@
     "video": "",
     "content": [
       {
+        "section": "Being a training day hair model at Alice and the Hair",
         "q": "How do I enquire?",
         "a": [
           "Check us out on instagram! You can message the salon or our apprentices from there. You can also give the salon a call and we will put you in the right direction."
         ]
       },
       {
+        "section": "Being a training day hair model at Alice and the Hair",
         "q": "Who's Providing the service?",
         "a": [
           "Your service is being provided by a trainee and will be overseen by one of our senioreducators."
         ]
       },
       {
+        "section": "Being a training day hair model at Alice and the Hair",
         "q": "How much will it cost?",
         "a": [
           "There is a charge for colour services. This charge is purely to cover the cost of product usage and is heavily discounted from our usual prices.",
@@ -25,63 +28,96 @@
         ]
       },
       {
+        "section": "Being a training day hair model at Alice and the Hair",
         "q": "How long will it take?",
         "a": [
           "If you are modelling for a colour service you should expect to be with us for the full day (usually 9am til 5pm) and you should make provisions for this (eg bring lunch, arrange child care ect)."
         ]
       },
       {
+        "section": "Being a training day hair model at Alice and the Hair",
         "q": "Can I bring a friend?",
         "a": [
           "You should attend these sessions alone when possible (if you need to be accompanied for support please let us know beforehand so we can ensure we can accommodate)."
         ]
       },
       {
+        "section": "Being a training day hair model at Alice and the Hair",
         "q": "Can I ask for whatever I want?",
         "a": [
           "You will be in a training environment, this means that the trainee will usually have strict objectives on what they need to achieve in this session (there is little room for personalisation) these objectives will be clearly set out before you agree to be a model for any session."
         ]
       },
       {
+        "section": "Being a training day hair model at Alice and the Hair",
         "q": "Do I need to have my photo taken",
         "a": [
           "There is an expectation on our trainees that they take videos/photos throughout their training sessions, by agreeing to model for any training session you will need to be comfortable with this."
         ]
       },
       {
+        "section": "Being a training day hair model at Alice and the Hair",
         "q": "What if I don't like my hair or something goes wrong?",
         "a": [
-          "Although overseen by a senior educator, things can go wrong, this is all part of the learning process. During the session we will try our best to provide you with the best service possible however, when enquiring to be a model you should be understanding of the fact that the",
-          "Any ‘recolours’ are under discretion with our management team however in most cases you should expect to be recommended to book a paid appointment with one of our qualified stylists."
+          "Although overseen  by a senior educator, things can go wrong, this is all part of the learning process.",
+          "During the session we will try our best to provide you with the best service possible however, when enquiring to be a model you should be understanding of the fact that our apprentice/graduate stylists are training and it is extremely overwhelming and demotivating to receive complaints during their learning stage.",
+          "Please be kind to our trainee stylists andas you agree to be a model you are agreeing to these terms.",
+          "IN THE EVENT OF THIS YOU MUST NOT DIRECTLY CONTACT YOUR TRAINEE STYLIST UNDER ANY CIRCUMSTANCES. You must bring this to the attention of our management team via email at manager@aliceandthehair.co.uk"
         ]
       }
     ]
   },
   {
     "id": 2,
-    "section": "Being a training day hair model at Alice and the Hair",
-    "slug": "hair-model",
+    "section": "The Salon ",
+    "slug": "location",
     "video": "",
     "content": [
       {
-        "q": "",
+        "section": "The Salon",
+        "q": "Where on earth are you?",
+        "keys": "location salon",
         "a": [
-          "",
-          ""
+          "The Salon is located on Sadlergate in Derby, UK",
+          "51A Sadler Gate, Derby DE1 3NQ"
         ]
       },
       {
-        "q": "",
+        "section": "The Salon",
+        "q": "What are your Opening Hours?",
         "a": [
-          "",
-          ""
+          "Monday - CLOSED",
+          "Tuesday - 9am - 5pm",
+          "Wednesday - 9am - 8pm",
+          "Thursday - 9am - 6pm",
+          "Friday - 9am - 7pm",
+          "Saturday - 8am - 4pm",
+          "Sunday - CLOSED"
         ]
+      },
+      {
+        "section": "The Salon",
+        "q": "Call the Salon",
+        "a": [
+          "Call us from Tuesday to Saturday during our opening hours."
+        ],
+        "link": "tel:+441332347073",
+        "linkText": "01332 347073"
+      },
+      {
+        "section": "The Salon",
+        "q": "Send us an Email",
+        "a": [
+          "If you have any unanswered questions please don't hesitate to send us an email."
+        ],
+        "link": "mailto:salon@aliceandthehair.co.uk",
+        "linkText": "salon@aliceandthehair.co.uk"
       }
     ]
   },
   {
     "id": 3,
-    "section": "Being a training day hair model at Alice and the Hair",
+    "section": "The NExt FAQ",
     "slug": "hair-model",
     "video": "",
     "content": [

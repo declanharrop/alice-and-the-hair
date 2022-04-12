@@ -54,7 +54,14 @@ export default function FaqItem() {
                         transition={transition}
                         className="a"
                       >
-                        <p>{item.a}</p>
+                        {item.a.map((text, t) => (
+                          <p key={t}>{text}</p>
+                        ))}
+                        {item.link && (
+                          <p>
+                            <a href={item.link}>{item.linkText}</a>
+                          </p>
+                        )}
                       </motion.div>
                     )}
                   </AnimatePresence>

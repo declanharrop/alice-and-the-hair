@@ -14,6 +14,7 @@ const FaqItemStyles = styled.div`
       width: 100%;
       height: 100%;
       border-radius: 4px;
+      object-fit: cover;
     }
     .overlay {
       border-radius: 4px;
@@ -40,6 +41,12 @@ const FaqItemStyles = styled.div`
         h4 {
           font-size: 2rem;
           font-weight: 400;
+          letter-spacing: 0.4rem;
+        }
+        .section-hint {
+          font-size: 1.3rem;
+          font-style: italic;
+          letter-spacing: 0.05rem;
         }
       }
       .a {
@@ -50,6 +57,13 @@ const FaqItemStyles = styled.div`
         overflow: hidden;
         p {
           margin: 20px 10px;
+          a {
+            color: white;
+            font-size: 2.4rem;
+            &:hover {
+              color: var(--peach);
+            }
+          }
         }
       }
     }
