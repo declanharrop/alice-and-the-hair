@@ -28,6 +28,9 @@ export default function FAQ() {
           setSearchValue(event.target.value);
         }}
       />
+      {/* <div className="ask-question">
+        <button type="button">Can't find my question?</button>
+      </div> */}
 
       <motion.div
         initial="hidden"
@@ -54,28 +57,6 @@ export default function FAQ() {
             </div>
           </Link>
         ))}
-        {/* {FaqData.content
-          .filter((question) => {
-            if (searchValue === false) {
-              return item;
-            }
-            if (
-              item.section.toLowerCase().includes(searchValue.toLowerCase())
-              ) {
-                return item;
-            }
-          })
-          .map((item, i) => (
-            <Link href={`/faq/${item.slug}`} key={i}>
-              <div className="faq-tile">
-              <img src={`/img/faq/${item.slug}.jpg`} alt={item.section} />
-                <div className="overlay">
-                <h3>{item.section}</h3>
-                </div>
-              </div>
-              </Link>
-            ))} */}
-        {/* {console.log(FaqData.content)} */}
       </motion.div>
       <div className="search-question-styles">
         {allQuestions

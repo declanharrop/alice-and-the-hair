@@ -117,11 +117,12 @@
   },
   {
     "id": 3,
-    "section": "The NExt FAQ",
-    "slug": "hair-model",
+    "section": "Policies",
+    "slug": "policies",
     "video": "",
     "content": [
       {
+        "section": "Policies",
         "q": "",
         "a": [
           "",

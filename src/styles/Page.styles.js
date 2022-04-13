@@ -42,6 +42,7 @@ export const FaqPageStyles = styled.div`
         color: white;
         display: flex;
         align-items: flex-end;
+        justify-content: center;
         padding: 20px;
         h3 {
           font-size: 1.8rem;
