@@ -2,6 +2,7 @@
   {
     "id": 1,
     "section": "Being a training day hair model at Alice and the Hair",
+    "metaDesc": "Learn all about what you will experience on a training day at Alice and the Hair, We have hopefully answered all of your questions to put your mind at ease.",
     "slug": "hair-model",
     "video": "",
     "content": [
@@ -71,6 +72,7 @@
     "id": 2,
     "section": "The Salon ",
     "slug": "location",
+    "metaDesc": "Find out all about the Salon from where we are to our opening times.",
     "video": "",
     "content": [
       {
@@ -119,9 +121,10 @@
     "id": 3,
     "section": "Our prices explained",
     "slug": "our-prices-explained",
+    "metaDesc": "Our price guide is to help our guests determine what their hair appointment islikely to cost. We have created the mostinformative yet simple guide for yourreference.",
     "video": "",
     "introText": [
-      "Our price guide is to help our guestsdetermine what their hair appointment islikely to cost. We have created the mostinformative yet simple guide for yourreference. All prices are based on theminimum hours stated with our stylist Level tothe maximum hours stated with our MasterStylist level.",
+      "Our price guide is to help our guests determine what their hair appointment islikely to cost. We have created the mostinformative yet simple guide for your reference. All prices are based on the minimum hours stated with our stylist Level tothe maximum hours stated with our Master Stylist level.",
       "All prices displayed are including your cut andstyle."
     ],
     "content": [
@@ -262,21 +265,47 @@
     "id": 4,
     "section": "Policies",
     "slug": "policies",
+    "metaDesc": "All the boring bits, check out all the information you may need about your appointment.",
     "video": "",
     "content": [
       {
         "section": "Policies",
-        "q": "",
+        "q": "Beauty Works Booking policy",
         "a": [
-          "",
-          ""
+          "We do not give prices for Hair Extensions over the phone, we require seeing your hair in person during a consultation to give an exact quote. The purchase of your hair will form your deposit, then the application cost is to be paid on the day of the appointment."
         ]
       },
       {
-        "q": "",
+        "section": "Policies",
+        "q": "Payments",
         "a": [
-          "",
-          ""
+          "We accept all major credit and debit cards including American Express.",
+          "We can also take payments over the phone.",
+          "We do not accept cheques."
+        ]
+      },
+      {
+        "section": "Policies",
+        "q": "Deposits",
+        "a": [
+          "A non refundable / non transferable deposit must be taken to secure every appointment you book. This can range from £20-£50 depending on the service booked."
+        ]
+      },
+      {
+        "section": "Policies",
+        "q": "Our Cancellations Policy",
+        "a": [
+          "If you need to cancel your appointment we require a minimum of 72 hours notice. If you give any less than 72 hours then you will need to pay a 50% cancellation fee in order to make another appointment (this is in addition to the deposit that must be paid to secure all appointments)",
+          "You will also lose your original deposit as this is non refundable.",
+          "If you cancel on the day or fail to attend you will be charged the full cost of your appointment in order to make another appointment."
+        ]
+      },
+      {
+        "section": "Policies",
+        "q": "Skin Tests",
+        "a": [
+          "You must be skin tested at least 48 hours before ANY colour service (this includes a toner). If you fail to turn up to your skin test then we will not be able to go ahead with your colour service. You will lose your deposit and will need to pay a cancellation fee in order to make another appointment.",
+          "You will also need a new skin test with us if it has been over 6 months since your last colour service with us."
         ]
       }
     ]

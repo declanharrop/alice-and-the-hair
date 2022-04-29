@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import Reviews from '../Reviews/Reviews';
 import FooterStyles from './Footer.styles';
@@ -19,10 +20,11 @@ export default function Footer() {
       <div className="lower-section">
         <p>
           © {new Date().getFullYear()} Alice and the Hair. Use of this site
-          constitutes acceptance of our Privacy Policy. The material on this
-          site may not be reproduced, distributed, transmitted, cached or
-          otherwise used, except with prior written permission of Alice and the
-          Hair.
+          constitutes acceptance of our{' '}
+          <Link href="/info/PrivacyPolicy">Privacy Policy</Link>. The material
+          on this site may not be reproduced, distributed, transmitted, cached
+          or otherwise used, except with prior written permission of Alice and
+          the Hair.
         </p>
       </div>
     </FooterStyles>
