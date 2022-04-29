@@ -36,6 +36,11 @@ export default function FaqItem() {
               </div>
             </div>
             <div className="pageWrapper slide-in-bottom">
+              <div className="intro-text">
+                {data.introText.map((text, a) => (
+                  <p key={a}>{text}</p>
+                ))}
+              </div>
               {data.content.map((item, i) => (
                 <div className="accordian" key={i}>
                   <div

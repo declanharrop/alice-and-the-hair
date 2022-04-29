@@ -5,7 +5,7 @@ import HeroImage from '../../Components/Hero/HeroImage';
 export default function Team() {
   return (
     <div>
-      <HeroImage overlay height="50vh">
+      <HeroImage overlay height="50vh" background="Team">
         <h1>Team</h1>
       </HeroImage>
       <CardSection data={TeamData} />

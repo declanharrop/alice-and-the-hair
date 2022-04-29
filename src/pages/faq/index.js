@@ -18,7 +18,7 @@ export default function FAQ() {
 
   return (
     <FaqPageStyles>
-      <HeroImage overlay>
+      <HeroImage overlay background="faqs">
         <h1 className="smaller-title">Frequently Asked Questions</h1>
       </HeroImage>
       <input

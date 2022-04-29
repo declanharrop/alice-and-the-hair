@@ -117,56 +117,155 @@
   },
   {
     "id": 3,
+    "section": "Our prices explained",
+    "slug": "our-prices-explained",
+    "video": "",
+    "introText": [
+      "Our price guide is to help our guestsdetermine what their hair appointment islikely to cost. We have created the mostinformative yet simple guide for yourreference. All prices are based on theminimum hours stated with our stylist Level tothe maximum hours stated with our MasterStylist level.",
+      "All prices displayed are including your cut andstyle."
+    ],
+    "content": [
+      {
+        "section": "Our Prices Explained",
+        "q": "Olaplex",
+        "a": [
+          "These prices do not include the highly recommended Olaplex, however we do encourage 100% of our blonde clients to include Olaplex in their colour service.",
+          "Olaplex can range from an additional £15-£30",
+          "We are lucky to have the added Built in Bond reinforcer contained in our bleaching system but most of our blondes find they achieve the best results when pairing this with Olaplex or one of our other targeted Intense Treatments."
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Large balayage services/new balayage service",
+        "a": [
+          "between 4 and 5 hours",
+          "£197 - £282"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Balayage Touch up services",
+        "a": [
+          "Between 3 and 4 hours",
+          "£145 - £235"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Full blonde colour",
+        "a": [
+          "between 4 and 5 hours",
+          "£197 - £282"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Blonde touch up",
+        "a": [
+          "Between 3 and 4 hours",
+          "£145 - £235"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "oOur Prices Explained",
+        "q": "Parting foils or face frame foils",
+        "a": [
+          "Between 2 and 3 hours",
+          "£93 - £173"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Full colour change",
+        "a": [
+          "between 4 and 6 hours",
+          "£279 - £359"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Tinting services",
+        "a": [
+          "2.5 Hours",
+          "£90 - £106"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Vivid refresh or shadow root and ends toner (no lightening)",
+        "a": [
+          "between 2.5 and 3 hours",
+          "£93 - £173"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Glossing",
+        "a": [
+          "1.5 Hours",
+          "£73 - £81"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Restyle - Change of shape, length or styling",
+        "a": [
+          "1.5 Hours",
+          "£51 - £59"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Cutting Services",
+        "a": [
+          "1 hour",
+          "£41 - £49"
+        ],
+        "link": "",
+        "linkText": ""
+      },
+      {
+        "section": "Our Prices Explained",
+        "q": "Blowdry services",
+        "a": [
+          "between 1 and 1,5 hours",
+          "£29 - £34"
+        ],
+        "link": "",
+        "linkText": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
     "section": "Policies",
     "slug": "policies",
     "video": "",
     "content": [
       {
         "section": "Policies",
-        "q": "",
-        "a": [
-          "",
-          ""
-        ]
-      },
-      {
-        "q": "",
-        "a": [
-          "",
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "section": "Being a training day hair model at Alice and the Hair",
-    "slug": "hair-model",
-    "video": "",
-    "content": [
-      {
-        "q": "",
-        "a": [
-          "",
-          ""
-        ]
-      },
-      {
-        "q": "",
-        "a": [
-          "",
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "section": "Being a training day hair model at Alice and the Hair",
-    "slug": "hair-model",
-    "video": "",
-    "content": [
-      {
         "q": "",
         "a": [
           "",

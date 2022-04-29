@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
-import LocalOfferRoundedIcon from '@mui/icons-material/LocalOfferRounded';
+import CurrencyPoundRoundedIcon from '@mui/icons-material/CurrencyPoundRounded';
 import GroupsRoundedIcon from '@mui/icons-material/GroupsRounded';
 import CalendarMonthRoundedIcon from '@mui/icons-material/CalendarMonthRounded';
 import HelpRoundedIcon from '@mui/icons-material/HelpRounded';
@@ -58,7 +58,7 @@ export default function Hotbar() {
                           : 'hotbar-button'
                       }
                     >
-                      <LocalOfferRoundedIcon
+                      <CurrencyPoundRoundedIcon
                         sx={{ fontSize: 32, color: 'var(--peach)' }}
                       />
                     </button>
