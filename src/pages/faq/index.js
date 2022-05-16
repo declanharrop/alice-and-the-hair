@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useState } from 'react';
-import { color } from '@mui/system';
 import HeroImage from '../../Components/Hero/HeroImage';
 import FaqData from '../../../public/data/faqs.json';
 import { FaqPageStyles } from '../../styles/Page.styles';
