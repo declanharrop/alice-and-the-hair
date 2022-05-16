@@ -55,6 +55,12 @@ const FaqItemStyles = styled.div`
         color: white;
         /* padding: 20px 10px; */
         overflow: hidden;
+        img {
+          margin-top: 20px;
+          height: 300px;
+          max-width: 300px;
+          object-fit: cover;
+        }
         p {
           margin: 20px 10px;
           a {

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useState } from 'react';
+import { color } from '@mui/system';
 import HeroImage from '../../Components/Hero/HeroImage';
 import FaqData from '../../../public/data/faqs.json';
 import { FaqPageStyles } from '../../styles/Page.styles';
@@ -9,6 +10,7 @@ import Head from '../../Components/Head';
 
 export default function FAQ() {
   const [searchValue, setSearchValue] = useState(false);
+  const [searchedQuestions, setSearchedQuestions] = useState([]);
 
   const list = {
     visible: { opacity: 1, duration: 5 },
@@ -16,7 +18,6 @@ export default function FAQ() {
   };
   const sections = FaqData.map((section) => section.content);
   const allQuestions = sections.flat();
-
   return (
     <>
       <Head
@@ -81,13 +82,30 @@ export default function FAQ() {
               ) {
                 return question;
               }
+              // if (question.keywords.includes(searchValue)) {
+              //   console.log(question);
+              //   return question;
+              // }
               return null;
             })
             .map((question, i) => (
               <FaqItem question={question} key={i} />
             ))}
         </div>
+        <div className="search-question-styles">
+          {allQuestions.map((question) => {
+            question.keywords.filter((keys) => {
+              if (keys.includes(searchValue)) {
+                // Do something here as we have the correct method
+                // for some reason the Component wont display
+              }
+              return null;
+            });
+            return null;
+          })}
+        </div>
       </FaqPageStyles>
+      {console.log(searchedQuestions)}
     </>
   );
 }

@@ -9,6 +9,9 @@
       {
         "section": "Being a training day hair model at Alice and the Hair",
         "q": "How do I enquire?",
+        "keywords": [
+          "hello"
+        ],
         "a": [
           "Check us out on instagram! You can message the salon or our apprentices from there. You can also give the salon a call and we will put you in the right direction."
         ]
@@ -16,6 +19,7 @@
       {
         "section": "Being a training day hair model at Alice and the Hair",
         "q": "Who's Providing the service?",
+        "keywords": [],
         "a": [
           "Your service is being provided by a trainee and will be overseen by one of our senioreducators."
         ]
@@ -23,6 +27,7 @@
       {
         "section": "Being a training day hair model at Alice and the Hair",
         "q": "How much will it cost?",
+        "keywords": [],
         "a": [
           "There is a charge for colour services. This charge is purely to cover the cost of product usage and is heavily discounted from our usual prices.",
           "There is a £20 per hour charge for lightening and creative colours however this will never exceed £100 unless you choose to add on additional treatments such as Olaplex."
@@ -31,6 +36,7 @@
       {
         "section": "Being a training day hair model at Alice and the Hair",
         "q": "How long will it take?",
+        "keywords": [],
         "a": [
           "If you are modelling for a colour service you should expect to be with us for the full day (usually 9am til 5pm) and you should make provisions for this (eg bring lunch, arrange child care ect)."
         ]
@@ -38,6 +44,7 @@
       {
         "section": "Being a training day hair model at Alice and the Hair",
         "q": "Can I bring a friend?",
+        "keywords": [],
         "a": [
           "You should attend these sessions alone when possible (if you need to be accompanied for support please let us know beforehand so we can ensure we can accommodate)."
         ]
@@ -45,6 +52,7 @@
       {
         "section": "Being a training day hair model at Alice and the Hair",
         "q": "Can I ask for whatever I want?",
+        "keywords": [],
         "a": [
           "You will be in a training environment, this means that the trainee will usually have strict objectives on what they need to achieve in this session (there is little room for personalisation) these objectives will be clearly set out before you agree to be a model for any session."
         ]
@@ -52,6 +60,7 @@
       {
         "section": "Being a training day hair model at Alice and the Hair",
         "q": "Do I need to have my photo taken",
+        "keywords": [],
         "a": [
           "There is an expectation on our trainees that they take videos/photos throughout their training sessions, by agreeing to model for any training session you will need to be comfortable with this."
         ]
@@ -59,61 +68,13 @@
       {
         "section": "Being a training day hair model at Alice and the Hair",
         "q": "What if I don't like my hair or something goes wrong?",
+        "keywords": [],
         "a": [
           "Although overseen  by a senior educator, things can go wrong, this is all part of the learning process.",
           "During the session we will try our best to provide you with the best service possible however, when enquiring to be a model you should be understanding of the fact that our apprentice/graduate stylists are training and it is extremely overwhelming and demotivating to receive complaints during their learning stage.",
           "Please be kind to our trainee stylists andas you agree to be a model you are agreeing to these terms.",
           "IN THE EVENT OF THIS YOU MUST NOT DIRECTLY CONTACT YOUR TRAINEE STYLIST UNDER ANY CIRCUMSTANCES. You must bring this to the attention of our management team via email at manager@aliceandthehair.co.uk"
         ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "section": "The Salon ",
-    "slug": "location",
-    "metaDesc": "Find out all about the Salon from where we are to our opening times.",
-    "video": "",
-    "content": [
-      {
-        "section": "The Salon",
-        "q": "Where on earth are you?",
-        "keys": "location salon",
-        "a": [
-          "The Salon is located on Sadlergate in Derby, UK",
-          "51A Sadler Gate, Derby DE1 3NQ"
-        ]
-      },
-      {
-        "section": "The Salon",
-        "q": "What are your Opening Hours?",
-        "a": [
-          "Monday - CLOSED",
-          "Tuesday - 9am - 5pm",
-          "Wednesday - 9am - 8pm",
-          "Thursday - 9am - 6pm",
-          "Friday - 9am - 7pm",
-          "Saturday - 8am - 4pm",
-          "Sunday - CLOSED"
-        ]
-      },
-      {
-        "section": "The Salon",
-        "q": "Call the Salon",
-        "a": [
-          "Call us from Tuesday to Saturday during our opening hours."
-        ],
-        "link": "tel:+441332347073",
-        "linkText": "01332 347073"
-      },
-      {
-        "section": "The Salon",
-        "q": "Send us an Email",
-        "a": [
-          "If you have any unanswered questions please don't hesitate to send us an email."
-        ],
-        "link": "mailto:salon@aliceandthehair.co.uk",
-        "linkText": "salon@aliceandthehair.co.uk"
       }
     ]
   },
@@ -131,6 +92,9 @@
       {
         "section": "Our Prices Explained",
         "q": "Olaplex",
+        "keywords": [
+          "how much is olaplex"
+        ],
         "a": [
           "These prices do not include the highly recommended Olaplex, however we do encourage 100% of our blonde clients to include Olaplex in their colour service.",
           "Olaplex can range from an additional £15-£30",
@@ -142,6 +106,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Large balayage services/new balayage service",
+        "keywords": [],
         "a": [
           "between 4 and 5 hours",
           "£197 - £282"
@@ -152,6 +117,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Balayage Touch up services",
+        "keywords": [],
         "a": [
           "Between 3 and 4 hours",
           "£145 - £235"
@@ -162,6 +128,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Full blonde colour",
+        "keywords": [],
         "a": [
           "between 4 and 5 hours",
           "£197 - £282"
@@ -172,6 +139,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Blonde touch up",
+        "keywords": [],
         "a": [
           "Between 3 and 4 hours",
           "£145 - £235"
@@ -182,6 +150,7 @@
       {
         "section": "oOur Prices Explained",
         "q": "Parting foils or face frame foils",
+        "keywords": [],
         "a": [
           "Between 2 and 3 hours",
           "£93 - £173"
@@ -192,6 +161,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Full colour change",
+        "keywords": [],
         "a": [
           "between 4 and 6 hours",
           "£279 - £359"
@@ -202,6 +172,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Tinting services",
+        "keywords": [],
         "a": [
           "2.5 Hours",
           "£90 - £106"
@@ -212,6 +183,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Vivid refresh or shadow root and ends toner (no lightening)",
+        "keywords": [],
         "a": [
           "between 2.5 and 3 hours",
           "£93 - £173"
@@ -222,6 +194,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Glossing",
+        "keywords": [],
         "a": [
           "1.5 Hours",
           "£73 - £81"
@@ -232,6 +205,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Restyle - Change of shape, length or styling",
+        "keywords": [],
         "a": [
           "1.5 Hours",
           "£51 - £59"
@@ -242,6 +216,7 @@
       {
         "section": "Our Prices Explained",
         "q": "Cutting Services",
+        "keywords": [],
         "a": [
           "1 hour",
           "£41 - £49"
@@ -252,12 +227,124 @@
       {
         "section": "Our Prices Explained",
         "q": "Blowdry services",
+        "keywords": [],
         "a": [
           "between 1 and 1,5 hours",
           "£29 - £34"
         ],
         "link": "",
         "linkText": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "Our Services Explained",
+    "slug": "our-services-explained",
+    "metaDesc": "A Simple explanation of what all of our services entail.",
+    "video": "",
+    "content": [
+      {
+        "section": "Our Services Explained",
+        "q": "Everything you need to know about... Balayage",
+        "image": "our-services-explained/balayage",
+        "keywords": [
+          "balayage"
+        ],
+        "a": [
+          "Balayage is POPULAR! Balayage has evolved over the years & there is no one way to create a balayage, you’ll see a number of different techniques throughout your visit with us, from all different hares, on all different heads of hair! You may even have a slightly different technique on your own hair on each visit! This is usually because our hares are constantly learning, evolving and elevating the way they do things.",
+          "Balayage usually requires a large amount of salon time, therefore meaning your 1st balayage appointment with us could be up to 6 hours long!",
+          "Once you’ve had your initial appointment we expect that you will have 2, 3 or even 4 top up visits throughout the year to 18 months until you’re ready for that biggie again!",
+          "Your top up visits are often 4-6 weeks after your initial appointment and they will be anything from a toner glaze to soften warmth or adding a few babylights followed by a toner which could be an appointment time of 2-3 hours."
+        ]
+      },
+      {
+        "section": "Our Services Explained",
+        "q": "Everything you need to know about... Hair Fall",
+        "image": "",
+        "keywords": [
+          "hair fall"
+        ],
+        "a": [
+          "A number of factors contribute to hair fall or what’s commonly known as hair loss.",
+          "BStress, Hormonal changes, tension from tying hair up, genetic factors, over bleaching, over brushing or under brushing, pregnancy or medication.",
+          "If hair fall is something you are worried about it is important to determine what could be the cause which could be one of the above factors and this could’ve happened up to a year prior to you experiencing hair fall/loss.",
+          "We recommend to decrease hair fall using specific products targeted for scalp health, we recommend our Energizing range and an appropriate tonic or Gel, find out which one will be best for you by booking a consultation with one of our Senior or Master stylists."
+        ]
+      },
+      {
+        "section": "Our Services Explained",
+        "q": "Everything you need to know about... Toner fade",
+        "image": "",
+        "keywords": [
+          "toner fade"
+        ],
+        "a": [
+          "Due to the nature of toners, they are prone to fading or shift, it is not possible to create a permanent toner, as this sits on the outer layer of your hair rather than in your hair shaft where your natural pigment lives, which is often warm in tone. Toners do not have the permanent neutralising power so therefore we expect your toner to fade a certain amount after your appointment with us.",
+          "Ways to prevent toner fade:",
+          "- Wait 1 or 2 days before washing your hair after your colour service",
+          "- Keep washing your hair to a minimum",
+          "- When washing your hair try to use cooler water",
+          "- Use the recommended toning conditioners to keep that tone on lock",
+          "- Use the recommended shampoo",
+          "- Keep heat styling to a minimum",
+          "- Refrain from using non professional products such as Head and shoulders/Pantene",
+          "- Protect your hair from chlorine and the sun particularly in other countries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "The Salon ",
+    "slug": "location",
+    "metaDesc": "Find out all about the Salon from where we are to our opening times.",
+    "video": "",
+    "content": [
+      {
+        "section": "The Salon",
+        "q": "Where on earth are you?",
+        "keywords": [
+          "where is the salon"
+        ],
+        "a": [
+          "The Salon is located on Sadlergate in Derby, UK",
+          "51A Sadler Gate, Derby DE1 3NQ"
+        ]
+      },
+      {
+        "section": "The Salon",
+        "q": "What are your Opening Hours?",
+        "keywords": [],
+        "a": [
+          "Monday - CLOSED",
+          "Tuesday - 9am - 5pm",
+          "Wednesday - 9am - 8pm",
+          "Thursday - 9am - 6pm",
+          "Friday - 9am - 7pm",
+          "Saturday - 8am - 4pm",
+          "Sunday - CLOSED"
+        ]
+      },
+      {
+        "section": "The Salon",
+        "q": "Call the Salon",
+        "keywords": [],
+        "a": [
+          "Call us from Tuesday to Saturday during our opening hours."
+        ],
+        "link": "tel:+441332347073",
+        "linkText": "01332 347073"
+      },
+      {
+        "section": "The Salon",
+        "q": "Send us an Email",
+        "keywords": [],
+        "a": [
+          "If you have any unanswered questions please don't hesitate to send us an email."
+        ],
+        "link": "mailto:salon@aliceandthehair.co.uk",
+        "linkText": "salon@aliceandthehair.co.uk"
       }
     ]
   },
@@ -271,6 +358,7 @@
       {
         "section": "Policies",
         "q": "Beauty Works Booking policy",
+        "keywords": [],
         "a": [
           "We do not give prices for Hair Extensions over the phone, we require seeing your hair in person during a consultation to give an exact quote. The purchase of your hair will form your deposit, then the application cost is to be paid on the day of the appointment."
         ]
@@ -278,6 +366,7 @@
       {
         "section": "Policies",
         "q": "Payments",
+        "keywords": [],
         "a": [
           "We accept all major credit and debit cards including American Express.",
           "We can also take payments over the phone.",
@@ -287,6 +376,7 @@
       {
         "section": "Policies",
         "q": "Deposits",
+        "keywords": [],
         "a": [
           "A non refundable / non transferable deposit must be taken to secure every appointment you book. This can range from £20-£50 depending on the service booked."
         ]
@@ -294,6 +384,7 @@
       {
         "section": "Policies",
         "q": "Our Cancellations Policy",
+        "keywords": [],
         "a": [
           "If you need to cancel your appointment we require a minimum of 72 hours notice. If you give any less than 72 hours then you will need to pay a 50% cancellation fee in order to make another appointment (this is in addition to the deposit that must be paid to secure all appointments)",
           "You will also lose your original deposit as this is non refundable.",
@@ -303,6 +394,7 @@
       {
         "section": "Policies",
         "q": "Skin Tests",
+        "keywords": [],
         "a": [
           "You must be skin tested at least 48 hours before ANY colour service (this includes a toner). If you fail to turn up to your skin test then we will not be able to go ahead with your colour service. You will lose your deposit and will need to pay a cancellation fee in order to make another appointment.",
           "You will also need a new skin test with us if it has been over 6 months since your last colour service with us."

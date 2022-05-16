@@ -67,6 +67,9 @@ export default function FaqItem() {
                         transition={transition}
                         className="a"
                       >
+                        {item.image && (
+                          <img src={`/img/faq/${item.image}.jpg`} alt="" />
+                        )}
                         {item.a.map((text, t) => (
                           <p key={t}>{text}</p>
                         ))}

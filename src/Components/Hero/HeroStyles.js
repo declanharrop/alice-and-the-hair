@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HeroVideoStyles = styled.div`
   position: absolute;
   min-height: 100%;
-  width: 100%;
+  width: calc(100% - 70px);
   .overlay {
     height: 100%;
     width: 100%;
@@ -22,6 +22,9 @@ export const HeroVideoStyles = styled.div`
         font-size: 7vw;
       }
     }
+  }
+  @media screen and (max-width: 560px) {
+    width: 100%;
   }
   .video {
     background-repeat: no-repeat;
