@@ -17,6 +17,21 @@ const CardSectionStyles = styled.div`
       background: var(--navy);
       position: relative;
       box-shadow: 0 0 20px 2px var(--navyxxf);
+      .maternity {
+        background: var(--peach);
+        padding: 8px 16px;
+        transform: rotate(-8deg);
+        border-radius: 30px;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        color: var(--navy);
+        p {
+          font-size: 1.5rem;
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+      }
       .ping {
         position: absolute;
         z-index: 1;

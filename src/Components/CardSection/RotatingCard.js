@@ -21,6 +21,13 @@ export default function RotatingCard({ data }) {
         >
           {data.clicker && <div className="ping" />}
           <img src={`/img/team/${data.name}.${format}`} alt="" />
+          {data.maternity && (
+            <div className="maternity">
+              <p>
+                <span>🤱 </span> Maternity Leave
+              </p>
+            </div>
+          )}
           <div className="overlay">
             <h5>{data.name}</h5>
             <p>{data.title}</p>

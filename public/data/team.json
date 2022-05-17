@@ -9,6 +9,7 @@
   },
   {
     "name": "Beth",
+    "maternity": "true",
     "id": 2,
     "title": "Master Stylist",
     "titleDetails": "This level has achieved mastery status, is more than confident in every aspect ofhairdressing and often will have a very high level of knowledge in a specific area. Ourmaster stylists are also part of our education team so pass on their knowledge to thelesser qualified members of the team. Our master stylists also continue to grow theirknowledge through external education to stay ahead of the trends and new techniques.",
@@ -90,7 +91,7 @@
     "name": "Amelia",
     "id": 12,
     "title": "Apprentice",
-    "titleDetails": "",
+    "titleDetails": "Our apprentices are just beginning their journey into hairdressing. They are enrolled into a hairdressing college and are also regularly and thoroughly trained by our in salon education team right from hair science to colour and cutting techniques in which they work on real life models to gain real life experience. They work through modules and assessments to gain their NVQ Level 2 qualification. Our apprentices are also at the heart of keeping our salon running smoothly.",
     "img": "",
     "prices": ""
   }
