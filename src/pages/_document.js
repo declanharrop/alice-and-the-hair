@@ -1,4 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
@@ -16,7 +17,12 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400&display=swap"
             rel="stylesheet"
           />
-          <script id="mcjs" src="mailchimp.js" />
+          <Script
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fcb64d7808fba647fb81f5760/f80e34eca95eb3b89e1179c16.js");`,
+            }}
+          />
         </Head>
         <body initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           <Main />
