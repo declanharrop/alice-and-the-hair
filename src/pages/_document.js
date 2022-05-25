@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400&display=swap"
             rel="stylesheet"
           />
-          <Script src="/mailchimp.js" />
+          <Script id="mcjs" src="/mailchimp.js" />
         </Head>
         <body initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           <Main />
