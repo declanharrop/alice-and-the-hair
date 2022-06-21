@@ -61,7 +61,9 @@ const Globalstyle = createGlobalStyle`
     cursor: pointer;
     &:hover {
       background: white;
+      color: var(--navy);
     }
+
   }
   a {
     text-decoration: none;
