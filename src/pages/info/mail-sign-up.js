@@ -6,6 +6,12 @@ const MailSignUpStyles = styled.div`
   margin-top: 40px;
   padding: 20px;
   color: var(--navy);
+  h3 {
+    margin-bottom: 20px;
+  }
+  .lower {
+    font-size: 2.4rem;
+  }
   p {
     color: var(--navy);
     font-size: 1.8rem;
@@ -52,11 +58,8 @@ const { MAILCHIMP_URL } = process.env;
 export default function MailSignUp() {
   return (
     <MailSignUpStyles>
-      <h1>Join Our Newsletter</h1>
-      <p>
-        Subscribe to our newsletter to recieve the latest news and exclusive
-        offers.
-      </p>
+      <h3>sign up to our mail list</h3>
+      <h3 className="lower">for our top 5 ultimate hair tips.</h3>
       <MailchimpSubscribe
         url={MAILCHIMP_URL}
         render={(props) => {
