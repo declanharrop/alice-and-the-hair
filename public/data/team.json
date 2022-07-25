@@ -66,6 +66,14 @@
     "prices": "Loves; coppers, complex bleach work & braiding"
   },
   {
+    "name": "Kenzi",
+    "id": 13,
+    "title": "£52 ph",
+    "titleDetails": "CUTTING SPECIALIST",
+    "img": "",
+    "prices": "Loves; complex bleach work and vivids"
+  },
+  {
     "name": "Cory",
     "id": 10,
     "title": "£42 ph",
@@ -87,13 +95,5 @@
     "titleDetails": "",
     "img": "",
     "prices": ""
-  },
-  {
-    "name": "Kenzi",
-    "id": 13,
-    "title": "£52 ph",
-    "titleDetails": "CUTTING SPECIALIST",
-    "img": "",
-    "prices": "Loves; complex bleach work and vivids"
   }
 ]
