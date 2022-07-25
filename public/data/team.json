@@ -4,15 +4,15 @@
     "id": 1,
     "title": "Chief Hare",
     "img": "",
-    "prices": "£75 per hour",
+    "prices": "Hair Diary Closed",
     "clicker": true
   },
   {
     "name": "Beth",
     "maternity": "true",
     "id": 2,
-    "title": "Master Stylist",
-    "titleDetails": "This level has achieved mastery status, is more than confident in every aspect ofhairdressing and often will have a very high level of knowledge in a specific area. Ourmaster stylists are also part of our education team so pass on their knowledge to thelesser qualified members of the team. Our master stylists also continue to grow theirknowledge through external education to stay ahead of the trends and new techniques.",
+    "title": "",
+    "titleDetails": "Maternity Leave",
     "img": "",
     "prices": ""
   },
@@ -27,55 +27,56 @@
   {
     "name": "Lydia",
     "id": 4,
-    "title": "Master Stylist",
-    "titleDetails": "This level has achieved mastery status, is more than confident in every aspect ofhairdressing and often will have a very high level of knowledge in a specific area. Ourmaster stylists are also part of our education team so pass on their knowledge to thelesser qualified members of the team. Our master stylists also continue to grow theirknowledge through external education to stay ahead of the trends and new techniques.",
+    "title": "£62 ph",
+    "titleDetails": "VIVID SPECIALIST",
     "img": "",
-    "prices": ""
+    "prices": "Loves; short hair & balayage"
   },
   {
     "name": "Louise",
     "id": 6,
-    "title": "Senior Stylist",
-    "titleDetails": "Fully qualified and confident in most if not all areas, this  level of stylist  has travelledthrough our training and development programme and is a much more informedhairdresser, this level will also undergo external education to reach mastery in specificareas.",
+    "title": "£62 ph",
+    "titleDetails": "COLOUR CHANGE SPECIALIST",
     "img": "",
-    "prices": ""
+    "prices": "Loves; bobs & vivids"
   },
   {
     "name": "Megan",
     "id": 7,
-    "title": "Stylist",
-    "titleDetails": "Fully qualified in all aspects and is fully competent in every area, including complexcolour services, this level will undergo training in weaker areas to obtain a more solidunderstanding of all hair colouring and cutting techniques to become a fully rounded hairstylist and colourist.",
+    "title": "£57",
+    "titleDetails": "BLONDING SPECIALIST",
     "img": "",
-    "prices": ""
+    "prices": "Loves; balayage & all things hair and scalp health"
   },
   {
     "name": "Chyna",
+    "maternity": "true",
     "id": 8,
-    "title": "Stylist",
-    "titleDetails": "Fully qualified in all aspects and is fully competent in every area, including complexcolour services, this level will undergo training in weaker areas to obtain a more solidunderstanding of all hair colouring and cutting techniques to become a fully rounded hairstylist and colourist.",
+    "title": "",
+    "titleDetails": "Maternity Leave",
     "img": "",
     "prices": ""
   },
   {
     "name": "Sam",
     "id": 9,
-    "title": "Graduate Stylist",
-    "titleDetails": "Qualified to NVQ level 2, this level has gained the relevant qualifications and skills tooffer basic hairdressing skills and is still on a training plan with our education team todevelop a much higher understanding of the craft- prices are reduced to reflect this.Appointments may take longer and large colour corrections are usually not suitable forthis level of stylist. It is important to understand that  this level of stylist is still improvingon their skills, things may not always go to plan and this will be dealt with case by case.",
+    "title": "£52 ph",
+    "titleDetails": "CURLY HAIR & TEXTURE SPECIALIST",
     "img": "",
-    "prices": ""
+    "prices": "Loves; coppers, complex bleach work & braiding"
   },
   {
     "name": "Cory",
     "id": 10,
-    "title": "Graduate Stylist",
-    "titleDetails": "Qualified to NVQ level 2, this level has gained the relevant qualifications and skills tooffer basic hairdressing skills and is still on a training plan with our education team todevelop a much higher understanding of the craft- prices are reduced to reflect this.Appointments may take longer and large colour corrections are usually not suitable forthis level of stylist. It is important to understand that  this level of stylist is still improvingon their skills, things may not always go to plan and this will be dealt with case by case.",
-    "prices": ""
+    "title": "£42 ph",
+    "titleDetails": "BLOWDRY & STYLING SPECIALIST",
+    "prices": "Loves; bleach work & vivds"
   },
   {
     "name": "Mia",
     "id": 11,
-    "title": "Graduate Stylist",
-    "titleDetails": "Qualified to NVQ level 2, this level has gained the relevant qualifications and skills tooffer basic hairdressing skills and is still on a training plan with our education team todevelop a much higher understanding of the craft- prices are reduced to reflect this.Appointments may take longer and large colour corrections are usually not suitable forthis level of stylist. It is important to understand that  this level of stylist is still improvingon their skills, things may not always go to plan and this will be dealt with case by case.",
+    "title": "£42 ph",
+    "titleDetails": "",
     "img": "",
     "prices": ""
   },
@@ -83,8 +84,16 @@
     "name": "Amelia",
     "id": 12,
     "title": "Apprentice",
-    "titleDetails": "Our apprentices are just beginning their journey into hairdressing. They are enrolled into a hairdressing college and are also regularly and thoroughly trained by our in salon education team right from hair science to colour and cutting techniques in which they work on real life models to gain real life experience. They work through modules and assessments to gain their NVQ Level 2 qualification. Our apprentices are also at the heart of keeping our salon running smoothly.",
+    "titleDetails": "",
     "img": "",
     "prices": ""
+  },
+  {
+    "name": "Kenzi",
+    "id": 13,
+    "title": "£52 ph",
+    "titleDetails": "CUTTING SPECIALIST",
+    "img": "",
+    "prices": "Loves; complex bleach work and vivids"
   }
 ]

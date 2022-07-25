@@ -36,7 +36,7 @@ export default function RotatingCard({ data }) {
         <div className="card-back" onClick={() => setFlipped(!isFlipped)}>
           <div>
             <h4>{data.name}</h4>
-            <h5>{data.title}</h5>
+            {/* <h5>{data.title}</h5> */}
             <p>{data.titleDetails}</p>
             {data.prices && <p>{data.prices}</p>}
           </div>
