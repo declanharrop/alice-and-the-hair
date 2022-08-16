@@ -2,9 +2,10 @@
   {
     "name": "Alice",
     "id": 1,
-    "title": "Chief Hare",
+    "title": "Hair diary permanently closed.",
+    "titleDetails": "BOSS BABE @ ALICE AND THE HAIR,  ",
     "img": "",
-    "prices": "Hair Diary Closed",
+    "prices": "Loves; educating her team and creating a future proof salon. ",
     "clicker": true
   },
   {
@@ -84,16 +85,16 @@
     "name": "Mia",
     "id": 11,
     "title": "£42 ph",
-    "titleDetails": "",
+    "titleDetails": "BLONDE TRANSFORMATION SPECIALIST",
     "img": "",
-    "prices": ""
+    "prices": "Loves; braiding and vivids"
   },
   {
     "name": "Amelia",
     "id": 12,
     "title": "Apprentice",
-    "titleDetails": "",
+    "titleDetails": "Amelia is our head apprentice and is always on the hunt for colour and cut models.",
     "img": "",
-    "prices": ""
+    "prices": "Loves; blondes, balayage and bridal styling"
   }
 ]
