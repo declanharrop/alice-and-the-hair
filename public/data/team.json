@@ -1,12 +1,51 @@
 [
   {
-    "name": "Alice",
-    "id": 1,
-    "title": "Hair diary permanently closed.",
-    "titleDetails": "BOSS BABE @ ALICE AND THE HAIR,  ",
+    "name": "Mia",
+    "id": 11,
+    "title": "£42 ph",
+    "titleDetails": "BLONDE TRANSFORMATION SPECIALIST",
     "img": "",
-    "prices": "Loves; educating her team and creating a future proof salon. ",
-    "clicker": true
+    "prices": "Loves; braiding and vivids"
+  },
+  {
+    "name": "Kenzi",
+    "id": 13,
+    "title": "£52 ph",
+    "titleDetails": "CUTTING SPECIALIST",
+    "img": "",
+    "prices": "Loves; complex bleach work and vivids"
+  },
+  {
+    "name": "Sam",
+    "id": 9,
+    "title": "£52 ph",
+    "titleDetails": "CURLY HAIR & TEXTURE SPECIALIST",
+    "img": "",
+    "prices": "Loves; coppers, complex bleach work & braiding"
+  },
+  {
+    "name": "Megan",
+    "id": 7,
+    "title": "£57",
+    "titleDetails": "BLONDING SPECIALIST",
+    "img": "",
+    "prices": "Loves; balayage & all things hair and scalp health"
+  },
+  {
+    "name": "Louise",
+    "id": 6,
+    "title": "£62 ph",
+    "titleDetails": "COLOUR CHANGE SPECIALIST",
+    "img": "",
+    "prices": "Loves; bobs & vivids"
+  },
+  {
+    "name": "Lydia",
+    "id": 4,
+    "title": "£62 ph",
+    "titleDetails": "VIVID SPECIALIST",
+    "img": "",
+    "prices": "Loves; short hair & balayage"
   },
   {
     "name": "Beth",
@@ -18,38 +57,6 @@
     "prices": ""
   },
   {
-    "name": "Leah",
-    "id": 3,
-    "title": "Manager",
-    "titleDetails": "",
-    "img": "",
-    "prices": ""
-  },
-  {
-    "name": "Lydia",
-    "id": 4,
-    "title": "£62 ph",
-    "titleDetails": "VIVID SPECIALIST",
-    "img": "",
-    "prices": "Loves; short hair & balayage"
-  },
-  {
-    "name": "Louise",
-    "id": 6,
-    "title": "£62 ph",
-    "titleDetails": "COLOUR CHANGE SPECIALIST",
-    "img": "",
-    "prices": "Loves; bobs & vivids"
-  },
-  {
-    "name": "Megan",
-    "id": 7,
-    "title": "£57",
-    "titleDetails": "BLONDING SPECIALIST",
-    "img": "",
-    "prices": "Loves; balayage & all things hair and scalp health"
-  },
-  {
     "name": "Chyna",
     "maternity": "true",
     "id": 8,
@@ -59,35 +66,11 @@
     "prices": ""
   },
   {
-    "name": "Sam",
-    "id": 9,
-    "title": "£52 ph",
-    "titleDetails": "CURLY HAIR & TEXTURE SPECIALIST",
-    "img": "",
-    "prices": "Loves; coppers, complex bleach work & braiding"
-  },
-  {
-    "name": "Kenzi",
-    "id": 13,
-    "title": "£52 ph",
-    "titleDetails": "CUTTING SPECIALIST",
-    "img": "",
-    "prices": "Loves; complex bleach work and vivids"
-  },
-  {
     "name": "Cory",
     "id": 10,
     "title": "£42 ph",
     "titleDetails": "BLOWDRY & STYLING SPECIALIST",
     "prices": "Loves; bleach work & vivds"
-  },
-  {
-    "name": "Mia",
-    "id": 11,
-    "title": "£42 ph",
-    "titleDetails": "BLONDE TRANSFORMATION SPECIALIST",
-    "img": "",
-    "prices": "Loves; braiding and vivids"
   },
   {
     "name": "Amelia",
@@ -96,5 +79,22 @@
     "titleDetails": "Amelia is our head apprentice and is always on the hunt for colour and cut models.",
     "img": "",
     "prices": "Loves; blondes, balayage and bridal styling"
+  },
+  {
+    "name": "Alice",
+    "id": 1,
+    "title": "Hair diary permanently closed.",
+    "titleDetails": "BOSS BABE @ ALICE AND THE HAIR,  ",
+    "img": "",
+    "prices": "Loves; educating her team and creating a future proof salon. ",
+    "clicker": true
+  },
+  {
+    "name": "Leah",
+    "id": 3,
+    "title": "Manager",
+    "titleDetails": "",
+    "img": "",
+    "prices": ""
   }
 ]
