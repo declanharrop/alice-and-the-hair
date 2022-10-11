@@ -13,7 +13,7 @@ export default function Button({ title = 'Button', exLink, link = '/' }) {
   return (
     <Link href={link}>
       <button className="universal-button" type="button">
-        Button
+        {title}
       </button>
     </Link>
   );
