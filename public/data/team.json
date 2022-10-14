@@ -2,7 +2,7 @@
   {
     "name": "Mia",
     "id": 11,
-    "title": "£42 ph",
+    "title": "£50 ph",
     "titleDetails": "BLONDE TRANSFORMATION SPECIALIST",
     "img": "",
     "prices": "Loves; braiding and vivids"
@@ -18,7 +18,7 @@
   {
     "name": "Sam",
     "id": 9,
-    "title": "£52 ph",
+    "title": "£58 ph",
     "titleDetails": "CURLY HAIR & TEXTURE SPECIALIST",
     "img": "",
     "prices": "Loves; coppers, complex bleach work & braiding"
@@ -26,7 +26,7 @@
   {
     "name": "Megan",
     "id": 7,
-    "title": "£57",
+    "title": "£58",
     "titleDetails": "BLONDING SPECIALIST",
     "img": "",
     "prices": "Loves; balayage & all things hair and scalp health"
@@ -64,13 +64,6 @@
     "titleDetails": "Maternity Leave",
     "img": "",
     "prices": ""
-  },
-  {
-    "name": "Cory",
-    "id": 10,
-    "title": "£42 ph",
-    "titleDetails": "BLOWDRY & STYLING SPECIALIST",
-    "prices": "Loves; bleach work & vivds"
   },
   {
     "name": "Amelia",
