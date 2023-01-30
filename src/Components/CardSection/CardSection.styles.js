@@ -14,18 +14,18 @@ const CardSectionStyles = styled.div`
   .rotating-card {
     .card-front {
       height: 440px;
-      background: var(--navy);
+      background: var(--pink);
       position: relative;
-      box-shadow: 0 0 20px 2px var(--navyxxf);
+      box-shadow: 0 0 10px 0px var(--pinkf);
       .maternity {
-        background: var(--peach);
+        background: var(--pink);
         padding: 8px 16px;
         transform: rotate(-8deg);
         border-radius: 30px;
         position: absolute;
         top: 20px;
         left: 10px;
-        color: var(--navy);
+        color: var(--darkBrown);
         p {
           font-size: 1.5rem;
           font-weight: 500;
@@ -35,7 +35,7 @@ const CardSectionStyles = styled.div`
       .ping {
         position: absolute;
         z-index: 1;
-        background-color: var(--navy);
+        background-color: var(--pink);
         margin: 10px 0 0 10px;
         height: 40px;
         width: 40px;
@@ -79,7 +79,7 @@ const CardSectionStyles = styled.div`
       }
 
       .clickme {
-        background: var(--navyf);
+        background: var(--pinkf);
         position: absolute;
         z-index: 100;
         top: 0;
@@ -101,18 +101,18 @@ const CardSectionStyles = styled.div`
       .overlay {
         position: absolute;
         bottom: 0;
-        background: var(--navyf);
+        background: var(--pinkf);
         background: linear-gradient(
           180deg,
           rgba(64, 84, 117, 0) 0%,
-          rgba(64, 84, 117, 0.6474790599833684) 8%,
-          rgba(64, 84, 117, 0.8995799003195029) 16%
+          rgba(255, 162, 137, 0.6474790599833684) 8%,
+          rgba(255, 162, 137, 0.8995799003195029) 16%
         );
         left: 0;
         padding-top: 20px;
         height: 90px;
         width: 100%;
-        color: white;
+        color: var(--darkBrown);
         h5 {
           font-size: 2.2rem;
         }
@@ -124,8 +124,8 @@ const CardSectionStyles = styled.div`
     }
     .card-back {
       height: 440px;
-      background: var(--navyf);
-      color: white;
+      background: var(--pinkf);
+      color: var(--darkBrown);
       display: flex;
       justify-content: center;
       align-items: center;

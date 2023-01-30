@@ -13,14 +13,17 @@ const Globalstyle = createGlobalStyle`
     --grey: #3A3A3A;
     --lightGrey: #E1E1E1;
     --offWhite: #ededed;
-    --peach: #E9958B;
+    --peach: #FFA289;
+    --pink: #FFA289;
+    --pinkf: #ffa389b7;
     --peachf: #E9958B85;
-    --navy: #405475;
+    --navy: #BD9463;
     --navyf: rgba(64, 84, 117, 0.7);
     --navyxf: rgba(64, 84, 117, 0.5);
     --navyxxf: rgba(64, 84, 117, 0.2);
-    --cream: #EAE0D0;
-    --green: #5F7C5E;
+    --cream: #FFF7DC;
+    --green: #FFF7DC;
+    --darkBrown: #603B0E;
   }
   html {
     box-sizing: border-box;
@@ -40,12 +43,13 @@ const Globalstyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+    font-family: 'Josefin Sans', --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     text-align: center;
     letter-spacing: 0.1rem;
     font-size: 1.6rem;
     line-height: 1.6;
-    font-weight: 400;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     width: calc(100% - 70px);
@@ -53,7 +57,7 @@ const Globalstyle = createGlobalStyle`
   }
   button {
     font-weight: 500;
-    font-family: 'Raleway', --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Josefin Sans', --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     transition: ease-in-out 0.3s;
     font-size: 1.6rem;
     letter-spacing: 0.5rem;

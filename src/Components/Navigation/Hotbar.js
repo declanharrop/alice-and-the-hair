@@ -42,7 +42,7 @@ export default function Hotbar() {
                       }
                     >
                       <HomeRoundedIcon
-                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                        sx={{ fontSize: 32, color: 'rgba(255,255,255,0.6)' }}
                       />
                     </button>
                   </Link>
@@ -59,7 +59,7 @@ export default function Hotbar() {
                       }
                     >
                       <CurrencyPoundRoundedIcon
-                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                        sx={{ fontSize: 32, color: 'rgba(255,255,255,0.4)' }}
                       />
                     </button>
                   </Link>
@@ -76,7 +76,7 @@ export default function Hotbar() {
                       }
                     >
                       <GroupsRoundedIcon
-                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                        sx={{ fontSize: 32, color: 'rgba(255,255,255,0.4)' }}
                       />
                     </button>
                   </Link>
@@ -93,7 +93,7 @@ export default function Hotbar() {
                       }
                     >
                       <HelpRoundedIcon
-                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                        sx={{ fontSize: 32, color: 'rgba(255,255,255,0.4)' }}
                       />
                     </button>
                   </Link>
@@ -110,7 +110,7 @@ export default function Hotbar() {
                       }
                     >
                       <CalendarMonthRoundedIcon
-                        sx={{ fontSize: 32, color: 'var(--peach)' }}
+                        sx={{ fontSize: 32, color: 'rgba(255,255,255,0.4)' }}
                       />
                     </button>
                   </Link>

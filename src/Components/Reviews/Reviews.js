@@ -8,28 +8,28 @@ const SlideshowStyles = styled.div`
   background: var(--peach);
   .slideshow {
     transition: ease-in-out 0.3s;
-    color: var(--navy);
+    color: var(--darkBrown);
     margin: 0 auto;
     max-width: 1000px;
     padding: 5vw 40px 3vw;
     button {
       box-shadow: none;
-      color: var(--navy);
+      color: var(--darkBrown);
     }
     h2 {
-      font-family: LemonMilk;
+      /* font-family: LemonMilk; */
       margin: 60px auto 30px;
     }
     .slick-prev::before {
-      color: var(--navy);
+      color: var(--darkBrown);
     }
     .slick-next::before {
-      color: var(--navy);
+      color: var(--darkBrown);
     }
     .slick-dots {
       li {
         button::before {
-          color: var(--navy);
+          color: var(--darkBrown);
         }
       }
     }
@@ -60,7 +60,7 @@ export default function Reviews() {
   return (
     <SlideshowStyles>
       <div className="slideshow">
-        <h2 style={{ color: 'var(--navy)' }}>Our Reviews</h2>
+        <h2 style={{ color: 'var(--darkBrown)' }}>Our Reviews</h2>
         <Slider {...settings}>
           <div className="testimonial">
             <p>

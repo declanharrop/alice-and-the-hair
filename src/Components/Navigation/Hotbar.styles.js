@@ -8,7 +8,7 @@ const HotbarStyles = styled.div`
     left: 0px;
     width: 100%;
     background: var(--navy);
-    box-shadow: 0px 0px 32px var(--navyf);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     height: 70px;
     nav {
       width: 100%;
@@ -38,7 +38,7 @@ const HotbarStyles = styled.div`
           border: none;
           border-radius: 2px;
           .MuiSvgIcon-root {
-            color: var(--green);
+            color: white;
           }
         }
       }
@@ -52,7 +52,7 @@ const HotbarStyles = styled.div`
     width: 70px;
     height: 100%;
     background: var(--navy);
-    box-shadow: 0px 0px 32px var(--navyf);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     nav {
       width: 100%;
       height: 100%;
@@ -81,7 +81,7 @@ const HotbarStyles = styled.div`
           border: none;
           border-radius: 2px;
           .MuiSvgIcon-root {
-            color: var(--green);
+            color: white;
           }
         }
       }

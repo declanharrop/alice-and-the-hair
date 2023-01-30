@@ -8,18 +8,25 @@ export const HeroVideoStyles = styled.div`
     height: 100%;
     width: 100%;
     position: absolute;
-    background: var(--navyxf);
+    background: var(--pinkf);
     z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
     h1 {
-      font-size: 4rem;
+      font-size: 7rem;
       color: white;
     }
     @media screen and (max-width: 500px) {
       h1 {
         font-size: 7vw;
+      }
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .overlay {
+      h1 {
+        font-size: 8vw;
       }
     }
   }
@@ -53,21 +60,21 @@ export const HeroImageStyles = styled.div`
   background-position: center center;
   margin-bottom: 100px;
   margin-top: -6vh;
-  transform: skewY(-3deg);
+  /* transform: skewY(-3deg); */
   position: relative;
   overflow: hidden;
   img {
     position: absolute;
     top: 0;
     left: 0;
-    transform: skewY(3deg);
+    /* transform: skewY(3deg); */
     object-fit: cover;
     height: 110%;
     width: 100%;
   }
   .overlay {
     position: relative;
-    background: var(--navyxf);
+    background: var(--pinkf);
     padding-top: 3vh;
     height: 100%;
     width: 100%;
@@ -76,7 +83,7 @@ export const HeroImageStyles = styled.div`
     align-items: center;
     color: white;
     h1 {
-      transform: skewY(3deg);
+      /* transform: skewY(3deg); */
       font-size: 8rem;
     }
     .smaller-title {

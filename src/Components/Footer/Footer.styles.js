@@ -7,7 +7,7 @@ const FooterStyles = styled.div`
     background-color: var(--navy);
     h3 {
       margin: 30px 0 20px;
-      font-family: LemonMilk;
+      /* font-family: LemonMilk; */
       color: var(--cream);
     }
     p {

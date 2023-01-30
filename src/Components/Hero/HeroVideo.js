@@ -26,8 +26,8 @@ export default function HeroVideo() {
           style={{ backgroundImage: 'url(/img/hero/home1.jpg)' }}
         >
           <video autoPlay loop muted playsInline>
+            <source src="/video/backVideof.mp4" type="video/mp4" />
             <source src="/video/backVideoT.webm" type="video/webm" />
-            <source src="/video/backVideo.mp4" type="video/mp4" />
           </video>
         </div>
       </HeroVideoStyles>

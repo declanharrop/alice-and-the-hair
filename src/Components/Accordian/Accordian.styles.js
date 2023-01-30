@@ -4,7 +4,7 @@ const AccordianStyles = styled.div`
   margin: -15vh 0 0 0;
   padding: 10vh 20px 5vh;
   background: var(--green);
-  color: white;
+  color: var(--darkBrown);
   .inner {
     padding: 10vw 0;
     .header {
@@ -15,15 +15,19 @@ const AccordianStyles = styled.div`
         margin: 0 20px;
         cursor: pointer;
         .active {
-          color: white;
-          font-weight: 600;
+          color: var(--darkBrown);
+          font-weight: 800;
+          letter-spacing: 0.3rem;
         }
         .inactive {
-          font-weight: 500;
-          color: rgba(255, 255, 255, 0.4);
+          font-weight: 100;
+          letter-spacing: 0.3rem;
+          color: var(--darkBrown);
+          opacity: 0.6;
         }
       }
       h3 {
+        color: var(--darkBrown);
         font-size: 3rem;
       }
     }

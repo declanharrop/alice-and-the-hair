@@ -2,21 +2,23 @@ import { createGlobalStyle } from 'styled-components';
 
 const Typography = createGlobalStyle`
   h1 {
-    font-family: 'LemonMilk', 'Raleway', sans-serif;
-    letter-spacing: 0.7rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+    text-transform: uppercase;
     font-size: 5.4rem;
     line-height: 1.6;
   }
   h2 {
-    font-family: 'LemonMilk', 'Raleway', sans-serif;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 0.5rem;
     font-size: 5rem;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 100;
     text-transform: uppercase;
   }
   h3 {
-    font-family: 'LemonMilk', 'Raleway', sans-serif;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 1rem;
     font-size: 4rem;
     line-height: 1.2;

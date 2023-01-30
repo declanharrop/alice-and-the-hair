@@ -3,12 +3,12 @@ import styled from 'styled-components';
 const FaqItemStyles = styled.div`
   max-width: 1400px;
   margin: 0 auto;
-  color: var(--navy);
+  color: var(--darkBrown);
   .uppersection {
     margin: 20px;
     height: 40vh;
     border-radius: 4px;
-    box-shadow: 0 0 14px 2px var(--navyxxf);
+    box-shadow: 0 0 14px 2px var(--pinkf);
     img {
       position: relative;
       width: 100%;
@@ -26,16 +26,17 @@ const FaqItemStyles = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      color: white;
-      background: var(--navyxf);
+      color: var(--darkBrown);
+      background: var(--pinkf);
     }
   }
   .pageWrapper {
     margin: 60px 10px;
     .accordian {
       margin: 20px;
+      color: var(--darkBrown);
       .q {
-        background: var(--peach);
+        background: var(--pink);
         padding: 16px 10px;
         cursor: pointer;
         h4 {
@@ -51,7 +52,7 @@ const FaqItemStyles = styled.div`
       }
       .a {
         margin-top: 3px;
-        background: var(--navy);
+        background: var(--pinkf);
         color: white;
         /* padding: 20px 10px; */
         overflow: hidden;
@@ -64,10 +65,10 @@ const FaqItemStyles = styled.div`
         p {
           margin: 20px 10px;
           a {
-            color: white;
+            color: var(--darkBrown);
             font-size: 2.4rem;
             &:hover {
-              color: var(--peach);
+              color: var(--pinkf);
             }
           }
         }
