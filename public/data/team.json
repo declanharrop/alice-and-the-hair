@@ -24,6 +24,14 @@
     "prices": "Loves; coppers, complex bleach work & braiding"
   },
   {
+    "name": "Beth",
+    "id": 2,
+    "title": "£62 ph",
+    "titleDetails": "",
+    "img": "",
+    "prices": ""
+  },
+  {
     "name": "Megan",
     "id": 7,
     "title": "£58",
@@ -48,13 +56,12 @@
     "prices": "Loves; short hair & balayage"
   },
   {
-    "name": "Beth",
-    "maternity": "true",
-    "id": 2,
-    "title": "",
-    "titleDetails": "Maternity Leave",
+    "name": "Amelia",
+    "id": 12,
+    "title": "£25 ph",
+    "titleDetails": "Amelia is our head apprentice and is always on the hunt for colour and cut models.",
     "img": "",
-    "prices": ""
+    "prices": "Loves; blondes, balayage and bridal styling"
   },
   {
     "name": "Chyna",
@@ -64,14 +71,6 @@
     "titleDetails": "Maternity Leave",
     "img": "",
     "prices": ""
-  },
-  {
-    "name": "Amelia",
-    "id": 12,
-    "title": "Apprentice",
-    "titleDetails": "Amelia is our head apprentice and is always on the hunt for colour and cut models.",
-    "img": "",
-    "prices": "Loves; blondes, balayage and bridal styling"
   },
   {
     "name": "Alice",
