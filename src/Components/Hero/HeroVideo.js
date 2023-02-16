@@ -18,6 +18,10 @@ export default function HeroVideo() {
               exLink="https://go.aliceandthehair.co.uk/ClientFeedbackForm"
               title="Tell us how ya Feel"
             />
+            <Button
+              exLink="https://go.aliceandthehair.co.uk/CoWorking"
+              title="Co-Working Enquiries"
+            />
             <Button link="/book" title="Book Now" />
           </div>
         </div>
