@@ -357,47 +357,41 @@
     "content": [
       {
         "section": "Policies",
-        "q": "Beauty Works Booking policy",
+        "q": "Deposit Policy",
         "keywords": [],
         "a": [
-          "We do not give prices for Hair Extensions over the phone, we require seeing your hair in person during a consultation to give an exact quote. The purchase of your hair will form your deposit, then the application cost is to be paid on the day of the appointment."
+          "A 50% Deposit of the booked service is required for ALL Bookings.",
+          "This will either be taken at the time of booking, face to face or via our automated online payment site.",
+          "Or alternatively an email will reach you up to 7 days before your booking containing a payment link to pay your deposit.",
+          "Deposits are non transferable during our 72 hour notice period (up to 3 days prior to your booking date and time)",
+          "In the event of cancellation outside of our 72 hour window, your deposit will be carried over to your next booking, or held on your client card."
         ]
       },
       {
         "section": "Policies",
-        "q": "Payments",
+        "q": "Cancellation Policy",
         "keywords": [],
         "a": [
-          "We accept all major credit and debit cards including American Express.",
-          "We can also take payments over the phone.",
-          "We do not accept cheques."
+          "We require over 72 hours notice of any cancellation in order for us to have the best chance of re-filling the slot.",
+          "If notice is any less that 72 hours prior to your booking time, you will lose your deposit and this will form your 50% cancellation fee.",
+          "In the event that you cancel on the day or fail to attend your appointment, you will lose your deposit and be charged the remaining 50% of the booked service. This is applicable for all services booked.",
+          "We are unable to book another appointment should the 100% no show or on the day cancellation fee remain unpaid.",
+          "In the unlikely event that you haven't paid a deposit, and you cancel on the day or fail to attend, you will be charged 100% of the cancellation fee.",
+          "We will do everything we can to fill the appointment with a like for like service, and if this is the case, and we are able to recoup the exact amount in another booking, you will not be charged a cancellation fee.",
+          "Changed or cancelled individual services booked are also dealt with in line with our cancellation policy, should you change your mind on the day and only require a 'Cut and Blowdry' instead of a 'Colour and Cut and blowdry' you will be charged 100% of the original booked service, regardless of the service you had on the day.",
+          "For all cancellation fees, you will recieve an automated email from us, after your booked appointment time. (this gives us the necessary amount of time to re-fill the appointment) and this will contain a payment link for the amount required to settle your cancellation fee."
         ]
       },
       {
         "section": "Policies",
-        "q": "Deposits",
+        "q": "Skin Test Policy",
         "keywords": [],
         "a": [
-          "A non refundable / non transferable deposit must be taken to secure every appointment you book. This can range from £20-£50 depending on the service booked."
-        ]
-      },
-      {
-        "section": "Policies",
-        "q": "Our Cancellations Policy",
-        "keywords": [],
-        "a": [
-          "If you need to cancel your appointment we require a minimum of 72 hours notice. If you give any less than 72 hours then you will need to pay a 50% cancellation fee in order to make another appointment (this is in addition to the deposit that must be paid to secure all appointments)",
-          "You will also lose your original deposit as this is non refundable.",
-          "If you cancel on the day or fail to attend you will be charged the full cost of your appointment in order to make another appointment."
-        ]
-      },
-      {
-        "section": "Policies",
-        "q": "Skin Tests",
-        "keywords": [],
-        "a": [
-          "You must be skin tested at least 48 hours before ANY colour service (this includes a toner). If you fail to turn up to your skin test then we will not be able to go ahead with your colour service. You will lose your deposit and will need to pay a cancellation fee in order to make another appointment.",
-          "You will also need a new skin test with us if it has been over 6 months since your last colour service with us."
+          "It is salon policy for you to be skin tested at least 48 hours before ANY colour service (this includes a toner). If you fail to turn up to your skin test and this falls within the 48 hours prior to your booked appointment, we will be unable to go ahead with your colour service. You will lose your deposit and will need to pay a cancellation fee.",
+          "You will also need a new skin test with us if it has been over 6 months since your last colour service with us.",
+          "We will not perform a chemical service on any client if a skin test has not been carried out in both of those scenarios.",
+          "A skin test may also be necessary following health and safety questions during a consultation (if you have had a new tattoo or have had an allergic reaction since your last colour)",
+          "MINORS: We consider anyone under the age of 16 to be a minor. We do not allow any colour services on a minor."
         ]
       }
     ]

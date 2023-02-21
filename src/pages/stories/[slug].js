@@ -52,7 +52,7 @@ export default function PostPage() {
             <h3>{formatDate(data.post.date)}</h3>
           </div>
           <div className="divider" />
-          <div dangerouslySetInnerHTML={{ __html: data.post.content.html }} />;
+          <div dangerouslySetInnerHTML={{ __html: data.post.content.html }} />
           {data.post.videoLink && (
             <div dangerouslySetInnerHTML={{ __html: data.post.videoLink }} />
           )}
