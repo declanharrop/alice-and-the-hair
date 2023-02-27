@@ -2,6 +2,7 @@ import { gql, useLazyQuery, useQuery } from '@apollo/client';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import HeroImage from '../../Components/Hero/HeroImage';
+import Head from '../../Components/Head';
 import formatDate from '../../lib/formatDate';
 import StoryStyles from '../../styles/Story.styles';
 
@@ -12,6 +13,7 @@ const POST = gql`
       title
       slug
       date
+      metaDescription
       hero {
         url
       }
@@ -43,21 +45,30 @@ export default function PostPage() {
 
   if (data) {
     return (
-      <StoryStyles>
-        <img src={data.post.hero.url} alt="" />
-        <div className="story-content">
-          <div className="divider" />
-          <h1>{data.post.title}</h1>
-          <div className="date">
-            <h3>{formatDate(data.post.date)}</h3>
+      <>
+        <Head
+          title={data.post.title}
+          description={data.post.metaDescription}
+          url={`https://aliceandthehair.co.uk/storires/${data.post.slug}}`}
+          ogImage={data.post.hero.url}
+          ogType="article"
+        />
+        <StoryStyles>
+          <img src={data.post.hero.url} alt="" />
+          <div className="story-content">
+            <div className="divider" />
+            <h1>{data.post.title}</h1>
+            <div className="date">
+              <h3>{formatDate(data.post.date)}</h3>
+            </div>
+            <div className="divider" />
+            <div dangerouslySetInnerHTML={{ __html: data.post.content.html }} />
+            {data.post.videoLink && (
+              <div dangerouslySetInnerHTML={{ __html: data.post.videoLink }} />
+            )}
           </div>
-          <div className="divider" />
-          <div dangerouslySetInnerHTML={{ __html: data.post.content.html }} />
-          {data.post.videoLink && (
-            <div dangerouslySetInnerHTML={{ __html: data.post.videoLink }} />
-          )}
-        </div>
-      </StoryStyles>
+        </StoryStyles>
+      </>
     );
   }
   return null;
