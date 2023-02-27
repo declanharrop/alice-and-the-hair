@@ -4,7 +4,7 @@ import client from '../../../apollo-client';
 
 const GET_POST_URLS = gql`
   query posts {
-    stories {
+    posts {
       slug
       updatedAt
     }
@@ -16,8 +16,8 @@ export const getServerSideProps = async (ctx) => {
 
   const pageUrls = await client.query({ query: GET_POST_URLS });
 
-  const pageSitemaps = pageUrls.data.pages.map((item) => ({
-    loc: `https://america-uk.com/stories/${item.slug}`,
+  const pageSitemaps = pageUrls.data.posts.map((item) => ({
+    loc: `https://aliceandthehair.co.uk/stories/${item.slug}`,
     lastmod: item.updatedAt,
   }));
 
