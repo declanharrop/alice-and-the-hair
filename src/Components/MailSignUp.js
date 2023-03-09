@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
-import NewsletterForm from '../../Components/NewsletterForm';
+import NewsletterForm from './NewsletterForm';
+
+const { MAILCHIMP_URL } = process.env;
 
 const MailSignUpStyles = styled.div`
   margin-top: 40px;
@@ -43,7 +45,7 @@ const MailSignUpStyles = styled.div`
       border-radius: 8px;
       &:hover {
         background: var(--peach);
-        /* color: var(--navy); */
+        color: var(--navy);
       }
     }
   }
@@ -52,9 +54,6 @@ const MailSignUpStyles = styled.div`
     color: var(--red);
   }
 `;
-
-const { MAILCHIMP_URL } = process.env;
-
 export default function MailSignUp() {
   return (
     <MailSignUpStyles>
