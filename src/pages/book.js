@@ -19,7 +19,7 @@ export default function Book() {
         <iframe
           title="booking page"
           className="booking-page"
-          src="https://bookings.saloniq.co.uk/widget/dist/?id=ba4ec2c4-ae5f-4f81-a6de-82ee2a837ac8"
+          src="https://s-iq.co/BookingPortal/dist/?salonid=d6961286-3fc4-4306-8a59-3f46c5680ad7&tab=book"
           frameBorder="0"
         />
       </div>
