@@ -82,6 +82,7 @@ const Globalstyle = createGlobalStyle`
   }
   .booking {
     height: 100vh;
+    width: calc(100% - 80px);
   }
   .booking-page {
     height: 100%;
