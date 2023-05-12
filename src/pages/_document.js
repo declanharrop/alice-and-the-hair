@@ -18,12 +18,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
-            rel="stylesheet"
-          />
-
-          <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&display=swap"
             rel="stylesheet"
           />
           <script id="mcjs" src="mailchimp.js" />

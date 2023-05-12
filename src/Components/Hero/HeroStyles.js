@@ -21,6 +21,11 @@ export const HeroVideoStyles = styled.div`
       h1 {
         font-size: 7vw;
       }
+      button {
+        font-size: 1.6rem;
+        letter-spacing: 0.3rem;
+        margin: 10px;
+      }
     }
   }
   @media screen and (max-width: 820px) {

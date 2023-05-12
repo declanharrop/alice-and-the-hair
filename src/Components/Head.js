@@ -19,6 +19,7 @@ const Head = (props) => (
       name="description"
       content={props.description || defaultDescription}
     />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" sizes="192x192" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/static/favicon.ico" />
