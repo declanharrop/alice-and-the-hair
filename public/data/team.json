@@ -2,7 +2,7 @@
   {
     "name": "Mia",
     "id": 11,
-    "title": "£50 ph",
+    "title": "£54 ph",
     "titleDetails": "BLONDE TRANSFORMATION SPECIALIST",
     "img": "",
     "prices": "Loves; braiding and vivids"
@@ -10,7 +10,7 @@
   {
     "name": "Kenzi",
     "id": 13,
-    "title": "£52 ph",
+    "title": "£54 ph",
     "titleDetails": "CUTTING SPECIALIST",
     "img": "",
     "prices": "Loves; complex bleach work and vivids"
@@ -34,7 +34,7 @@
   {
     "name": "Megan",
     "id": 7,
-    "title": "£58",
+    "title": "£60 ph",
     "titleDetails": "BLONDING SPECIALIST",
     "img": "",
     "prices": "Loves; balayage & all things hair and scalp health"
@@ -48,29 +48,21 @@
     "prices": "Loves; bobs & vivids"
   },
   {
-    "name": "Lydia",
-    "id": 4,
-    "title": "£62 ph",
-    "titleDetails": "VIVID SPECIALIST",
-    "img": "",
-    "prices": "Loves; short hair & balayage"
-  },
-  {
     "name": "Amelia",
     "id": 12,
-    "title": "£25 ph",
+    "title": "£35 ph",
     "titleDetails": "Amelia is our head apprentice and is always on the hunt for colour and cut models.",
     "img": "",
     "prices": "Loves; blondes, balayage and bridal styling"
   },
   {
     "name": "Chyna",
-    "maternity": "true",
+    "maternity": false,
     "id": 8,
-    "title": "",
-    "titleDetails": "Maternity Leave",
+    "title": "£54 ph",
+    "titleDetails": "BLONDING AND EXTENSIONS SPECIALIST",
     "img": "",
-    "prices": ""
+    "prices": "£54 ph"
   },
   {
     "name": "Alice",
