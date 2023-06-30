@@ -11,11 +11,7 @@ const data = [
       },
       {
         item: 'Blowey',
-        cost: '20+',
-      },
-      {
-        item: 'Kids',
-        cost: '15+',
+        cost: '30+',
       },
     ],
   },
@@ -24,15 +20,15 @@ const data = [
     content: [
       {
         item: 'Lightening',
-        cost: '55 - £260+',
+        cost: '35 - £310+',
       },
       {
         item: 'Tinting',
-        cost: '47+',
+        cost: '45+',
       },
       {
         item: 'Glossing',
-        cost: '30+',
+        cost: '32+',
       },
     ],
   },
