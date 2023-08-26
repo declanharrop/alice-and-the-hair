@@ -16,12 +16,6 @@ export default function Book() {
         />
       </NextHead>
       <div className="booking">
-        <iframe
-          title="booking page"
-          className="booking-page"
-          src="https://phorest.com/book/salons/aliceandthehair"
-          frameBorder="0"
-        />
       </div>
     </>
   );
