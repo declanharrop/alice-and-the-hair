@@ -9,7 +9,8 @@ export default function HeroVideo() {
       <HeroVideoStyles>
         <div className="overlay">
           <div className="overlay-content">
-            <h1 style={{ marginBottom: '40px' }}>Alice and the Hair</h1>
+            <img src="/AllLove.svg" alt="Alice and the Hair" />
+            {/* <h1 style={{ marginBottom: '40px' }}>Alice and the Hair</h1>
             <Button
               exLink="https://go.aliceandthehair.co.uk/ColourConsultation"
               title="Colour Consultation"
@@ -22,7 +23,7 @@ export default function HeroVideo() {
               exLink="https://go.aliceandthehair.co.uk/CoWorking"
               title="Co-Working Enquiries"
             />
-            <Button link="/book" title="Book Now" />
+            <Button link="/book" title="Book Now" /> */}
           </div>
         </div>
         <div

@@ -26,8 +26,8 @@ function MyApp({ Component, pageProps }) {
             </ClientOnly>
           </motion.main>
         </AnimateSharedLayout>
-        <Hotbar />
-        <Footer />
+        {/* <Hotbar /> */}
+        {/* <Footer /> */}
         <CookieConsent
           location="top"
           buttonText="Im cool with that"

@@ -52,8 +52,6 @@ const Globalstyle = createGlobalStyle`
     font-weight: 500;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    width: calc(100% - 70px);
-    margin-left: 70px;
   }
   button {
     font-weight: 500;

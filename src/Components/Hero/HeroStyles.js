@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HeroVideoStyles = styled.div`
   position: absolute;
   min-height: 100%;
-  width: calc(100% - 70px);
+  width: 100%;
   .overlay {
     height: 100%;
     width: 100%;
@@ -12,6 +12,10 @@ export const HeroVideoStyles = styled.div`
     z-index: 10;
     display: flex;
     justify-content: center;
+    img {
+      width: 80vw;
+      max-width: 800px;
+    }
     align-items: center;
     h1 {
       font-size: 7rem;
@@ -87,6 +91,7 @@ export const HeroImageStyles = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
+
     h1 {
       /* transform: skewY(3deg); */
       font-size: 8rem;
