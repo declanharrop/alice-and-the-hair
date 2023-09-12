@@ -62,21 +62,18 @@ export const HeroVideoStyles = styled.div`
     }
   }
 `;
-
 export const HeroImageStyles = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   margin-bottom: 100px;
-  margin-top: -6vh;
-  /* transform: skewY(-3deg); */
+  margin-top: -6vh; /* transform: skewY(-3deg); */
   position: relative;
   overflow: hidden;
   img {
     position: absolute;
     top: 0;
-    left: 0;
-    /* transform: skewY(3deg); */
+    left: 0; /* transform: skewY(3deg); */
     object-fit: cover;
     height: 110%;
     width: 100%;
@@ -91,7 +88,6 @@ export const HeroImageStyles = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
-
     h1 {
       /* transform: skewY(3deg); */
       font-size: 8rem;

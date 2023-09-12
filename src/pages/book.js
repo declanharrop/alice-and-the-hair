@@ -15,14 +15,6 @@ export default function Book() {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
       </NextHead>
-      <div className="booking">
-        <iframe
-          title="booking page"
-          className="booking-page"
-          src="https://phorest.com/book/salons/aliceandthehair"
-          frameBorder="0"
-        />
-      </div>
     </>
   );
 }
